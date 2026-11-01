@@ -1,0 +1,24 @@
+[13.594s] Invoking command in '/home/rosdev/ros2_ws/build/python_scripts_pkg': PYTHONPATH=/home/rosdev/ros2_ws/build/python_scripts_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/python_scripts_pkg/build --no-deps symlink_data
+[17.937s] running develop
+[20.334s] running egg_info
+[20.334s] creating python_scripts_pkg.egg-info
+[20.334s] writing python_scripts_pkg.egg-info/PKG-INFO
+[20.335s] writing dependency_links to python_scripts_pkg.egg-info/dependency_links.txt
+[20.351s] writing entry points to python_scripts_pkg.egg-info/entry_points.txt
+[20.352s] writing requirements to python_scripts_pkg.egg-info/requires.txt
+[20.353s] writing top-level names to python_scripts_pkg.egg-info/top_level.txt
+[20.353s] writing manifest file 'python_scripts_pkg.egg-info/SOURCES.txt'
+[20.496s] reading manifest file 'python_scripts_pkg.egg-info/SOURCES.txt'
+[20.609s] writing manifest file 'python_scripts_pkg.egg-info/SOURCES.txt'
+[20.610s] running build_ext
+[20.610s] Creating /home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python3.10/site-packages/python-scripts-pkg.egg-link (link to .)
+[20.631s] Installing interactive_marker_rviz script to /home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python_scripts_pkg
+[20.638s] 
+[20.638s] Installed /home/rosdev/ros2_ws/build/python_scripts_pkg
+[20.639s] running symlink_data
+[20.639s] creating /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index
+[20.640s] creating /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index/resource_index
+[20.675s] creating /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index/resource_index/packages
+[20.678s] symbolically linking /home/rosdev/ros2_ws/build/python_scripts_pkg/resource/python_scripts_pkg -> /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index/resource_index/packages
+[20.705s] symbolically linking /home/rosdev/ros2_ws/build/python_scripts_pkg/package.xml -> /home/rosdev/ros2_ws/install/python_scripts_pkg/share/python_scripts_pkg
+[21.176s] Invoked command in '/home/rosdev/ros2_ws/build/python_scripts_pkg' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/python_scripts_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/python_scripts_pkg/build --no-deps symlink_data

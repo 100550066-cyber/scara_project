@@ -1,0 +1,88 @@
+[1.530s] Invoking command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/custom_fr3_moveit_config
+[7.594s] -- The C compiler identification is GNU 11.4.0
+[7.595s] -- The CXX compiler identification is GNU 11.4.0
+[7.595s] -- Detecting C compiler ABI info
+[7.595s] -- Detecting C compiler ABI info - done
+[7.595s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.595s] -- Detecting C compile features
+[7.596s] -- Detecting C compile features - done
+[7.596s] -- Detecting CXX compiler ABI info
+[7.596s] -- Detecting CXX compiler ABI info - done
+[7.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.596s] -- Detecting CXX compile features
+[7.597s] -- Detecting CXX compile features - done
+[7.597s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.597s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.597s] -- Found moveit_ros_move_group: 2.5.10 (/opt/ros/humble/share/moveit_ros_move_group/cmake)
+[7.598s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[7.598s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.598s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.598s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.599s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.600s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.600s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.623s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.630s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.630s] -- Found Threads: TRUE  
+[7.636s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.636s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.637s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.637s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.678s] -- Found tcb_span: 1.3.2 (/opt/ros/humble/share/tcb_span/cmake)
+[7.724s] -- Found rclcpp_lifecycle: 16.0.21 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[7.726s] -- Found parameter_traits: 0.7.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[8.321s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[9.694s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[9.783s] -- Found moveit_ros_planning_interface: 2.5.10 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[9.806s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[9.876s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[10.051s] -- Found moveit_common: 2.5.10 (/opt/ros/humble/share/moveit_common/cmake)
+[10.076s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.842s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.555s] -- Added test 'lint_cmake' to check CMake code style
+[18.445s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[24.024s] -- Added test 'xmllint' to check XML markup files
+[24.107s] -- Configuring done
+[24.325s] -- Generating done
+[24.354s] -- Build files have been written to: /home/rosdev/ros2_ws/build/custom_fr3_moveit_config
+[24.797s] Invoked command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/custom_fr3_moveit_config
+[24.799s] Invoking command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/custom_fr3_moveit_config -- -j12 -l12
+[25.438s] Invoked command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/custom_fr3_moveit_config -- -j12 -l12
+[25.439s] Invoking command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/custom_fr3_moveit_config
+[25.509s] -- Install configuration: "Release"
+[25.510s] -- Execute custom install script
+[25.524s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/ament_index/resource_index/package_run_dependencies/custom_fr3_moveit_config
+[25.615s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/ament_index/resource_index/parent_prefix_path/custom_fr3_moveit_config
+[25.818s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/ament_prefix_path.sh
+[25.965s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/ament_prefix_path.dsv
+[26.034s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/path.sh
+[26.116s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/path.dsv
+[26.211s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.bash
+[26.289s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.sh
+[26.389s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.zsh
+[26.499s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.dsv
+[26.569s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/package.dsv
+[26.617s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/ament_index/resource_index/packages/custom_fr3_moveit_config
+[26.683s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/cmake/custom_fr3_moveit_configConfig.cmake
+[26.758s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/cmake/custom_fr3_moveit_configConfig-version.cmake
+[26.857s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/package.xml
+[27.024s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/launch/cartesian_controller.launch.py
+[27.119s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/launch/demo.launch.py
+[27.461s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/chomp_planning.yaml
+[27.649s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3.srdf
+[27.729s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3.srdf.xacro
+[27.816s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3.urdf.xacro
+[28.008s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3_controllers.yaml
+[28.116s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3_ros_controllers.yaml
+[28.177s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/initial_positions.yaml
+[28.275s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/joint_limits.yaml
+[28.332s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/kinematics.yaml
+[28.402s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/ompl_planning.yaml
+[28.476s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/pilz_cartesian_limits.yaml
+[28.592s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[28.778s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/rviz/moveit_empty.rviz
+[28.877s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/rviz/visualize_robot.rviz
+[28.982s] Invoked command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/custom_fr3_moveit_config

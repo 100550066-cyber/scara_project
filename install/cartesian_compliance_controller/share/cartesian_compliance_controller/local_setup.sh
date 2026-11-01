@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/build/cartesian_compliance_controller/ament_cmake_environment_hooks/local_setup.sh

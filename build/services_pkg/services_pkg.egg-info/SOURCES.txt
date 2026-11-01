@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/services_pkg
+services_pkg/__init__.py
+services_pkg/client.py
+services_pkg/server.py
+services_pkg.egg-info/PKG-INFO
+services_pkg.egg-info/SOURCES.txt
+services_pkg.egg-info/dependency_links.txt
+services_pkg.egg-info/entry_points.txt
+services_pkg.egg-info/requires.txt
+services_pkg.egg-info/top_level.txt
+services_pkg.egg-info/zip-safe

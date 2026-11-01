@@ -1,0 +1,89 @@
+[1.519s] Invoking command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/moveit_tests_pkg -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/moveit_tests_pkg
+[7.626s] -- The C compiler identification is GNU 11.4.0
+[7.627s] -- The CXX compiler identification is GNU 11.4.0
+[7.627s] -- Detecting C compiler ABI info
+[7.627s] -- Detecting C compiler ABI info - done
+[7.627s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.631s] -- Detecting C compile features
+[7.631s] -- Detecting C compile features - done
+[7.632s] -- Detecting CXX compiler ABI info
+[7.632s] -- Detecting CXX compiler ABI info - done
+[7.632s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.632s] -- Detecting CXX compile features
+[7.633s] -- Detecting CXX compile features - done
+[7.633s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.633s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.635s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.638s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[7.638s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.642s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.642s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.643s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.643s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.644s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.644s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.644s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.644s] -- Looking for pthread.h
+[7.644s] -- Looking for pthread.h - found
+[7.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.645s] -- Found Threads: TRUE  
+[7.645s] -- Found moveit_ros_planning_interface: 2.5.10 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[7.645s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[7.646s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.661s] -- Found tcb_span: 1.3.2 (/opt/ros/humble/share/tcb_span/cmake)
+[7.661s] -- Found rclcpp_lifecycle: 16.0.21 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[7.773s] -- Found parameter_traits: 0.7.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[8.422s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[8.823s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.828s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.742s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[9.968s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[10.100s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[10.416s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.216s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.216s] -- Configured cppcheck include dirs: /home/rosdev/ros2_ws/src/franka/moveit_tests_pkg/include
+[12.217s] -- Configured cppcheck exclude dirs and/or files: 
+[12.700s] -- Added test 'lint_cmake' to check CMake code style
+[14.279s] -- Added test 'uncrustify' to check C / C++ code style
+[14.280s] -- Configured uncrustify additional arguments: 
+[14.487s] -- Added test 'xmllint' to check XML markup files
+[14.504s] -- Configuring done
+[15.218s] -- Generating done
+[15.344s] -- Build files have been written to: /home/rosdev/ros2_ws/build/moveit_tests_pkg
+[15.468s] Invoked command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/moveit_tests_pkg -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/moveit_tests_pkg
+[15.485s] Invoking command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/moveit_tests_pkg -- -j12 -l12
+[20.600s] [ 16%] [32mBuilding CXX object CMakeFiles/move_target_program.dir/src/move_target_program.cpp.o[0m
+[20.600s] [ 33%] [32mBuilding CXX object CMakeFiles/move_named_target_example.dir/src/move_named_target_example.cpp.o[0m
+[20.603s] [ 50%] [32mBuilding CXX object CMakeFiles/move_cartesian_program.dir/src/move_cartesian_program.cpp.o[0m
+[77.247s] [ 66%] [32m[1mLinking CXX executable move_target_program[0m
+[78.009s] [ 83%] [32m[1mLinking CXX executable move_named_target_example[0m
+[78.579s] [100%] [32m[1mLinking CXX executable move_cartesian_program[0m
+[79.354s] [100%] Built target move_target_program
+[79.356s] [100%] Built target move_named_target_example
+[79.727s] [100%] Built target move_cartesian_program
+[79.779s] Invoked command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/moveit_tests_pkg -- -j12 -l12
+[79.790s] Invoking command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/moveit_tests_pkg
+[79.811s] -- Install configuration: "Release"
+[79.813s] -- Execute custom install script
+[79.817s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_cartesian_program
+[79.850s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_target_program
+[79.883s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_named_target_example
+[79.931s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_tests_pkg
+[79.968s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_tests_pkg
+[80.002s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/ament_prefix_path.sh
+[80.027s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/ament_prefix_path.dsv
+[80.056s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/path.sh
+[80.085s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/path.dsv
+[80.117s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.bash
+[80.152s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.sh
+[80.190s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.zsh
+[80.217s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.dsv
+[80.256s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/package.dsv
+[80.292s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/packages/moveit_tests_pkg
+[80.349s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/cmake/moveit_tests_pkgConfig.cmake
+[80.375s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/cmake/moveit_tests_pkgConfig-version.cmake
+[80.424s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/package.xml
+[80.476s] Invoked command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/moveit_tests_pkg

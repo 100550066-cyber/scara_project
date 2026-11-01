@@ -1,0 +1,314 @@
+[0.351s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/rosdev/ros2_ws']
+[0.351s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/rosdev/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d2347fdc850>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d2347fb7910>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d2347fb7910>>, mixin_verb=('list',))
+[1.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.203s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rosdev/ros2_ws'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'ignore_ament_install'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extensions ['colcon_pkg']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'colcon_pkg'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extensions ['colcon_meta']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'colcon_meta'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extensions ['ros']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'ros'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extensions ['cmake', 'python']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'cmake'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'python'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extensions ['python_setup_py']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws) by extension 'python_setup_py'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/log) by extension 'ignore'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/log) ignored
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'ignore'
+[1.287s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'ignore_ament_install'
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extensions ['colcon_pkg']
+[1.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'colcon_pkg'
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extensions ['colcon_meta']
+[1.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'colcon_meta'
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extensions ['ros']
+[1.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'ros'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extensions ['cmake', 'python']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'cmake'
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'python'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extensions ['python_setup_py']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src) by extension 'python_setup_py'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extension 'ignore'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extension 'ignore_ament_install'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extensions ['colcon_pkg']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extension 'colcon_pkg'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extensions ['colcon_meta']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extension 'colcon_meta'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extensions ['ros']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/actions_pkg) by extension 'ros'
+[1.385s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/actions_pkg' with type 'ros.ament_python' and name 'actions_pkg'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extension 'ignore'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extension 'ignore_ament_install'
+[1.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extensions ['colcon_pkg']
+[1.413s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extension 'colcon_pkg'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extensions ['colcon_meta']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extension 'colcon_meta'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extensions ['ros']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/custom_msgs) by extension 'ros'
+[1.453s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[1.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extensions ['ignore', 'ignore_ament_install']
+[1.462s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'ignore'
+[1.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'ignore_ament_install'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extensions ['colcon_pkg']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'colcon_pkg'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extensions ['colcon_meta']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'colcon_meta'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extensions ['ros']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'ros'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extensions ['cmake', 'python']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'cmake'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'python'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extensions ['python_setup_py']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka) by extension 'python_setup_py'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'ignore_ament_install'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extensions ['colcon_pkg']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'colcon_pkg'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extensions ['colcon_meta']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'colcon_meta'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extensions ['ros']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'ros'
+[1.521s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extensions ['cmake', 'python']
+[1.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'cmake'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'python'
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extensions ['python_setup_py']
+[1.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers) by extension 'python_setup_py'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extensions ['ignore', 'ignore_ament_install']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'ignore'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'ignore_ament_install'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extensions ['colcon_pkg']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'colcon_pkg'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extensions ['colcon_meta']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'colcon_meta'
+[1.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extensions ['ros']
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'ros'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extensions ['cmake', 'python']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'cmake'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'python'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extensions ['python_setup_py']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/LICENSES) by extension 'python_setup_py'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'ignore'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'ignore_ament_install'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['colcon_pkg']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'colcon_pkg'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['colcon_meta']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'colcon_meta'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['ros']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'ros'
+[2.013s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller' with type 'ros.ament_cmake' and name 'cartesian_compliance_controller'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extension 'ignore'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extension 'ignore_ament_install'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['colcon_pkg']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extension 'colcon_pkg'
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['colcon_meta']
+[2.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extension 'colcon_meta'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['ros']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base) by extension 'ros'
+[2.079s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base' with type 'ros.ament_cmake' and name 'cartesian_controller_base'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['ignore', 'ignore_ament_install']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'ignore'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'ignore_ament_install'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['colcon_pkg']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'colcon_pkg'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['colcon_meta']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'colcon_meta'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['ros']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'ros'
+[2.171s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles' with type 'ros.ament_cmake' and name 'cartesian_controller_handles'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['ignore', 'ignore_ament_install']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'ignore'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'ignore_ament_install'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['colcon_pkg']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'colcon_pkg'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['colcon_meta']
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'colcon_meta'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['ros']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'ros'
+[2.224s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation' with type 'ros.ament_cmake' and name 'cartesian_controller_simulation'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['ignore', 'ignore_ament_install']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'ignore'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'ignore_ament_install'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['colcon_pkg']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'colcon_pkg'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['colcon_meta']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'colcon_meta'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['ros']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'ros'
+[2.330s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_tests' with type 'ros.catkin' and name 'cartesian_controller_tests'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['ignore', 'ignore_ament_install']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'ignore'
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'ignore_ament_install'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['colcon_pkg']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'colcon_pkg'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['colcon_meta']
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'colcon_meta'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['ros']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'ros'
+[2.459s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities' with type 'ros.ament_cmake' and name 'cartesian_controller_utilities'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extension 'ignore'
+[2.475s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extension 'ignore_ament_install'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['colcon_pkg']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extension 'colcon_pkg'
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['colcon_meta']
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extension 'colcon_meta'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['ros']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller) by extension 'ros'
+[2.538s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller' with type 'ros.ament_cmake' and name 'cartesian_force_controller'
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'ignore'
+[2.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'ignore_ament_install'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['colcon_pkg']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'colcon_pkg'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['colcon_meta']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'colcon_meta'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['ros']
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'ros'
+[2.638s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller' with type 'ros.ament_cmake' and name 'cartesian_motion_controller'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extensions ['ignore', 'ignore_ament_install']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'ignore'
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'ignore_ament_install'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extensions ['colcon_pkg']
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'colcon_pkg'
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extensions ['colcon_meta']
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'colcon_meta'
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extensions ['ros']
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'ros'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extensions ['cmake', 'python']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'cmake'
+[2.710s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'python'
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extensions ['python_setup_py']
+[2.715s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources) by extension 'python_setup_py'
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extensions ['ignore', 'ignore_ament_install']
+[2.753s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'ignore'
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'ignore_ament_install'
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extensions ['colcon_pkg']
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'colcon_pkg'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extensions ['colcon_meta']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'colcon_meta'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extensions ['ros']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'ros'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extensions ['cmake', 'python']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'cmake'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'python'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extensions ['python_setup_py']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/doc) by extension 'python_setup_py'
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extensions ['ignore', 'ignore_ament_install']
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'ignore'
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'ignore_ament_install'
+[3.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extensions ['colcon_pkg']
+[3.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'colcon_pkg'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extensions ['colcon_meta']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'colcon_meta'
+[3.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extensions ['ros']
+[3.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'ros'
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extensions ['cmake', 'python']
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'cmake'
+[3.207s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'python'
+[3.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extensions ['python_setup_py']
+[3.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/cartesian_controllers/resources/images) by extension 'python_setup_py'
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extension 'ignore'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extension 'ignore_ament_install'
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extensions ['colcon_pkg']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extension 'colcon_pkg'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extensions ['colcon_meta']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extension 'colcon_meta'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extensions ['ros']
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config) by extension 'ros'
+[3.396s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config' with type 'ros.ament_cmake' and name 'custom_fr3_moveit_config'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extension 'ignore'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extension 'ignore_ament_install'
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extensions ['colcon_pkg']
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extension 'colcon_pkg'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extensions ['colcon_meta']
+[3.424s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extension 'colcon_meta'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extensions ['ros']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/franka_description) by extension 'ros'
+[3.500s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[3.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extension 'ignore'
+[3.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extension 'ignore_ament_install'
+[3.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extensions ['colcon_pkg']
+[3.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extension 'colcon_pkg'
+[3.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extensions ['colcon_meta']
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extension 'colcon_meta'
+[3.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extensions ['ros']
+[3.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg) by extension 'ros'
+[3.742s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg' with type 'ros.ament_cmake' and name 'moveit_tests_pkg'
+[3.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extension 'ignore'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extension 'ignore_ament_install'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extensions ['colcon_pkg']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extension 'colcon_pkg'
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extensions ['colcon_meta']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extension 'colcon_meta'
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extensions ['ros']
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/franka/python_scripts_pkg) by extension 'ros'
+[4.001s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/franka/python_scripts_pkg' with type 'ros.ament_python' and name 'python_scripts_pkg'
+[4.067s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extension 'ignore'
+[4.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extension 'ignore_ament_install'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extensions ['colcon_pkg']
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extension 'colcon_pkg'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extensions ['colcon_meta']
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extension 'colcon_meta'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extensions ['ros']
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_description) by extension 'ros'
+[4.226s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[4.251s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[4.254s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extension 'ignore'
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extension 'ignore_ament_install'
+[4.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extensions ['colcon_pkg']
+[4.280s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extension 'colcon_pkg'
+[4.299s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extensions ['colcon_meta']
+[4.300s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extension 'colcon_meta'
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extensions ['ros']
+[4.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/my_robot_moveit_config) by extension 'ros'
+[4.392s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/my_robot_moveit_config' with type 'ros.ament_cmake' and name 'my_robot_moveit_config'
+[4.412s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.414s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extension 'ignore'
+[4.425s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extension 'ignore_ament_install'
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extensions ['colcon_pkg']
+[4.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extension 'colcon_pkg'
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extensions ['colcon_meta']
+[4.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extension 'colcon_meta'
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extensions ['ros']
+[4.446s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/services_pkg) by extension 'ros'
+[4.526s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/services_pkg' with type 'ros.ament_python' and name 'services_pkg'
+[4.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extension 'ignore'
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extension 'ignore_ament_install'
+[4.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extensions ['colcon_pkg']
+[4.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extension 'colcon_pkg'
+[4.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extensions ['colcon_meta']
+[4.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extension 'colcon_meta'
+[4.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extensions ['ros']
+[4.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/tf2_demo) by extension 'ros'
+[4.747s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/tf2_demo' with type 'ros.ament_python' and name 'tf2_demo'
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extension 'ignore'
+[4.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extension 'ignore_ament_install'
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extensions ['colcon_pkg']
+[4.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extension 'colcon_pkg'
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extensions ['colcon_meta']
+[4.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extension 'colcon_meta'
+[4.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extensions ['ros']
+[4.887s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosdev/ros2_ws/src/topics_pkg) by extension 'ros'
+[4.995s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosdev/ros2_ws/src/topics_pkg' with type 'ros.ament_python' and name 'topics_pkg'
+[4.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

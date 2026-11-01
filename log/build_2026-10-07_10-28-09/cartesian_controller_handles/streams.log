@@ -1,0 +1,77 @@
+[0.085s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_handles': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cartesian_controller_handles
+[0.335s] -- The C compiler identification is GNU 11.4.0
+[0.554s] -- The CXX compiler identification is GNU 11.4.0
+[0.618s] -- Detecting C compiler ABI info
+[0.912s] -- Detecting C compiler ABI info - done
+[0.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.947s] -- Detecting C compile features
+[0.948s] -- Detecting C compile features - done
+[0.978s] -- Detecting CXX compiler ABI info
+[1.283s] -- Detecting CXX compiler ABI info - done
+[1.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.329s] -- Detecting CXX compile features
+[1.330s] -- Detecting CXX compile features - done
+[1.371s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.047s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.361s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.596s] -- Found cartesian_controller_base: 0.0.0 (/home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/cmake)
+[2.885s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.923s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.976s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.045s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.123s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.135s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.228s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.421s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.432s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.478s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.489s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.520s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.554s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.591s] -- Looking for pthread.h
+[4.802s] -- Looking for pthread.h - found
+[4.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.060s] -- Found Threads: TRUE  
+[5.320s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.326s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.326s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.502s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[6.085s] -- Configuring done
+[6.213s] -- Generating done
+[6.226s] -- Build files have been written to: /home/rosdev/ros2_ws/build/cartesian_controller_handles
+[6.250s] Invoked command in '/home/rosdev/ros2_ws/build/cartesian_controller_handles' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cartesian_controller_handles
+[6.257s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_handles': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cartesian_controller_handles -- -j12 -l12
+[6.443s] [ 50%] [32mBuilding CXX object CMakeFiles/cartesian_controller_handles.dir/src/motion_control_handle.cpp.o[0m
+[49.215s] [100%] [32m[1mLinking CXX shared library libcartesian_controller_handles.so[0m
+[50.094s] [100%] Built target cartesian_controller_handles
+[50.138s] Invoked command in '/home/rosdev/ros2_ws/build/cartesian_controller_handles' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cartesian_controller_handles -- -j12 -l12
+[50.150s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_handles': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cartesian_controller_handles
+[50.172s] -- Install configuration: "Release"
+[50.174s] -- Execute custom install script
+[50.186s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles//cartesian_controller_handles_plugin.xml
+[50.301s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/include/cartesian_controller_handles/motion_control_handle.h
+[50.348s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/lib/libcartesian_controller_handles.so
+[50.374s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/environment/library_path.sh
+[50.401s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/environment/library_path.dsv
+[50.434s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_handles
+[50.471s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_handles
+[50.502s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/environment/ament_prefix_path.sh
+[50.536s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/environment/ament_prefix_path.dsv
+[50.574s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/environment/path.sh
+[50.604s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/environment/path.dsv
+[50.631s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/local_setup.bash
+[50.662s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/local_setup.sh
+[50.691s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/local_setup.zsh
+[50.723s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/local_setup.dsv
+[50.756s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/package.dsv
+[50.788s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/ament_index/resource_index/packages/cartesian_controller_handles
+[50.813s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/ament_index/resource_index/controller_interface__pluginlib__plugin/cartesian_controller_handles
+[50.842s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.871s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.899s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/cmake/ament_cmake_export_libraries-extras.cmake
+[50.931s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/cmake/cartesian_controller_handlesConfig.cmake
+[50.957s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/cmake/cartesian_controller_handlesConfig-version.cmake
+[50.990s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_handles/share/cartesian_controller_handles/package.xml
+[51.030s] Invoked command in '/home/rosdev/ros2_ws/build/cartesian_controller_handles' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base:/opt/ros/humble LD_LIBRARY_PATH=/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cartesian_controller_handles

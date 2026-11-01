@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating topics_pkg.egg-info
+writing topics_pkg.egg-info/PKG-INFO
+writing dependency_links to topics_pkg.egg-info/dependency_links.txt
+writing entry points to topics_pkg.egg-info/entry_points.txt
+writing requirements to topics_pkg.egg-info/requires.txt
+writing top-level names to topics_pkg.egg-info/top_level.txt
+writing manifest file 'topics_pkg.egg-info/SOURCES.txt'
+reading manifest file 'topics_pkg.egg-info/SOURCES.txt'
+writing manifest file 'topics_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosdev/ros2_ws/install/topics_pkg/lib/python3.10/site-packages/topics-pkg.egg-link (link to .)
+Installing listener script to /home/rosdev/ros2_ws/install/topics_pkg/lib/topics_pkg
+Installing talker script to /home/rosdev/ros2_ws/install/topics_pkg/lib/topics_pkg
+
+Installed /home/rosdev/ros2_ws/build/topics_pkg
+running symlink_data
+creating /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index
+creating /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index/resource_index
+creating /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/topics_pkg/resource/topics_pkg -> /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/topics_pkg/package.xml -> /home/rosdev/ros2_ws/install/topics_pkg/share/topics_pkg
+creating /home/rosdev/ros2_ws/install/topics_pkg/share/topics_pkg/launch
+symbolically linking /home/rosdev/ros2_ws/build/topics_pkg/launch/talker_listener.launch.py -> /home/rosdev/ros2_ws/install/topics_pkg/share/topics_pkg/launch

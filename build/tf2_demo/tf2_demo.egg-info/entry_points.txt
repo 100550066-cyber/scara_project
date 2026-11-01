@@ -1,0 +1,4 @@
+[console_scripts]
+broadcaster = tf2_demo.broadcaster:main
+listener = tf2_demo.listener:main
+

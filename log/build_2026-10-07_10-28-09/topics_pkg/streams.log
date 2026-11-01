@@ -1,0 +1,27 @@
+[13.606s] Invoking command in '/home/rosdev/ros2_ws/build/topics_pkg': PYTHONPATH=/home/rosdev/ros2_ws/build/topics_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/topics_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/topics_pkg/build --no-deps symlink_data
+[19.201s] running develop
+[20.572s] running egg_info
+[20.573s] creating topics_pkg.egg-info
+[20.573s] writing topics_pkg.egg-info/PKG-INFO
+[20.583s] writing dependency_links to topics_pkg.egg-info/dependency_links.txt
+[20.584s] writing entry points to topics_pkg.egg-info/entry_points.txt
+[20.585s] writing requirements to topics_pkg.egg-info/requires.txt
+[20.600s] writing top-level names to topics_pkg.egg-info/top_level.txt
+[20.600s] writing manifest file 'topics_pkg.egg-info/SOURCES.txt'
+[20.932s] reading manifest file 'topics_pkg.egg-info/SOURCES.txt'
+[21.075s] writing manifest file 'topics_pkg.egg-info/SOURCES.txt'
+[21.120s] running build_ext
+[21.120s] Creating /home/rosdev/ros2_ws/install/topics_pkg/lib/python3.10/site-packages/topics-pkg.egg-link (link to .)
+[21.121s] Installing listener script to /home/rosdev/ros2_ws/install/topics_pkg/lib/topics_pkg
+[21.164s] Installing talker script to /home/rosdev/ros2_ws/install/topics_pkg/lib/topics_pkg
+[21.165s] 
+[21.165s] Installed /home/rosdev/ros2_ws/build/topics_pkg
+[21.165s] running symlink_data
+[21.166s] creating /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index
+[21.166s] creating /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index/resource_index
+[21.167s] creating /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index/resource_index/packages
+[21.170s] symbolically linking /home/rosdev/ros2_ws/build/topics_pkg/resource/topics_pkg -> /home/rosdev/ros2_ws/install/topics_pkg/share/ament_index/resource_index/packages
+[21.222s] symbolically linking /home/rosdev/ros2_ws/build/topics_pkg/package.xml -> /home/rosdev/ros2_ws/install/topics_pkg/share/topics_pkg
+[21.237s] creating /home/rosdev/ros2_ws/install/topics_pkg/share/topics_pkg/launch
+[21.268s] symbolically linking /home/rosdev/ros2_ws/build/topics_pkg/launch/talker_listener.launch.py -> /home/rosdev/ros2_ws/install/topics_pkg/share/topics_pkg/launch
+[21.656s] Invoked command in '/home/rosdev/ros2_ws/build/topics_pkg' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/topics_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/topics_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/topics_pkg/build --no-deps symlink_data

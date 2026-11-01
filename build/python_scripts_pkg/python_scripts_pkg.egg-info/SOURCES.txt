@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+python_scripts_pkg/__init__.py
+python_scripts_pkg/interactive_marker_rviz.py
+python_scripts_pkg.egg-info/PKG-INFO
+python_scripts_pkg.egg-info/SOURCES.txt
+python_scripts_pkg.egg-info/dependency_links.txt
+python_scripts_pkg.egg-info/entry_points.txt
+python_scripts_pkg.egg-info/requires.txt
+python_scripts_pkg.egg-info/top_level.txt
+python_scripts_pkg.egg-info/zip-safe
+resource/python_scripts_pkg

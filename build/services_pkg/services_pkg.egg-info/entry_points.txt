@@ -1,0 +1,4 @@
+[console_scripts]
+number_service_client = services_pkg.client:main
+number_service_server = services_pkg.server:main
+

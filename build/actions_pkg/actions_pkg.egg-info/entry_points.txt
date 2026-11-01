@@ -1,0 +1,4 @@
+[console_scripts]
+fibonacci_client = actions_pkg.client:main
+fibonacci_server = actions_pkg.server:main
+

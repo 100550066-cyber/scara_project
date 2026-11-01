@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/src/franka/franka_description/launch/visualize_franka_duo.launch.py

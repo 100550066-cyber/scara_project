@@ -1,0 +1,77 @@
+[0.371s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/my_robot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/my_robot_description
+[7.617s] -- The C compiler identification is GNU 11.4.0
+[7.631s] -- The CXX compiler identification is GNU 11.4.0
+[7.631s] -- Detecting C compiler ABI info
+[7.632s] -- Detecting C compiler ABI info - done
+[7.632s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.632s] -- Detecting C compile features
+[7.633s] -- Detecting C compile features - done
+[7.633s] -- Detecting CXX compiler ABI info
+[7.633s] -- Detecting CXX compiler ABI info - done
+[7.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.634s] -- Detecting CXX compile features
+[7.634s] -- Detecting CXX compile features - done
+[7.634s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.635s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.635s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[7.636s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[7.636s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.636s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.636s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.642s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.644s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.646s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.647s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.647s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.647s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.647s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.648s] -- Looking for pthread.h
+[7.648s] -- Looking for pthread.h - found
+[7.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.649s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.649s] -- Found Threads: TRUE  
+[7.649s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.815s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.770s] -- Added test 'lint_cmake' to check CMake code style
+[13.330s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[18.855s] -- Added test 'xmllint' to check XML markup files
+[18.887s] -- Configuring done
+[19.006s] -- Generating done
+[19.062s] -- Build files have been written to: /home/rosdev/ros2_ws/build/my_robot_description
+[19.134s] Invoked command in '/home/rosdev/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/my_robot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/my_robot_description
+[19.138s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/my_robot_description -- -j12 -l12
+[21.076s] Invoked command in '/home/rosdev/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/my_robot_description -- -j12 -l12
+[21.077s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/my_robot_description
+[21.307s] -- Install configuration: "Release"
+[21.307s] -- Execute custom install script
+[21.308s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/config/controllers.yaml
+[21.505s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo.launch.py
+[21.650s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo_nocontrol.launch.py
+[21.709s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_visualization.launch.py
+[22.056s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/gripper.urdf.xacro
+[22.201s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[22.301s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm.urdf
+[22.421s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm.urdf.xacro
+[22.507s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm_control.urdf
+[22.663s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_control.urdf.xacro
+[22.796s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/visualize_robot.rviz
+[22.925s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[23.053s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[23.188s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[23.286s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[23.381s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[23.518s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[23.615s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[23.704s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[23.805s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[23.887s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[24.007s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[24.097s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[24.175s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[24.267s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[24.383s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[24.537s] Invoked command in '/home/rosdev/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/my_robot_description

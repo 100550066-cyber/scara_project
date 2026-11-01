@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rosdev/ros2_ws/build/moveit_tests_pkg/move_cartesian_program" "/home/rosdev/ros2_ws/build/moveit_tests_pkg/move_target_program" "/home/rosdev/ros2_ws/build/moveit_tests_pkg/move_named_target_example" "TARGETS" "move_cartesian_program" "move_target_program" "move_named_target_example" "DESTINATION" "lib/moveit_tests_pkg")

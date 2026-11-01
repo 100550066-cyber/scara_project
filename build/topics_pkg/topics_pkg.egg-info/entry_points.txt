@@ -1,0 +1,4 @@
+[console_scripts]
+listener = topics_pkg.listener:main
+talker = topics_pkg.talker:main
+

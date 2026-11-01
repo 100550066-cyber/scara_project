@@ -1,0 +1,9 @@
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/uninstall.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/scara_project_uninstall.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/test.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/edit_cache.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/rebuild_cache.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/list_install_components.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/install.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/install/local.dir
+/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/install/strip.dir

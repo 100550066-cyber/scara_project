@@ -1,0 +1,3 @@
+[console_scripts]
+interactive_marker_rviz = python_scripts_pkg.interactive_marker_rviz:main
+

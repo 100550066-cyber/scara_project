@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base/include/cartesian_controller_base/IKSolver.h

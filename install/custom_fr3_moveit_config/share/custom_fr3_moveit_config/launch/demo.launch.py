@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/src/franka/custom_fr3_moveit_config/launch/demo.launch.py

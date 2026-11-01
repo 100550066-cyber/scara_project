@@ -1,0 +1,64 @@
+[0.176s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_moveit_config': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/my_robot_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/my_robot_moveit_config
+[1.193s] -- The C compiler identification is GNU 11.4.0
+[1.899s] -- The CXX compiler identification is GNU 11.4.0
+[2.006s] -- Detecting C compiler ABI info
+[2.723s] -- Detecting C compiler ABI info - done
+[2.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.814s] -- Detecting C compile features
+[2.816s] -- Detecting C compile features - done
+[2.883s] -- Detecting CXX compiler ABI info
+[3.685s] -- Detecting CXX compiler ABI info - done
+[3.744s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.744s] -- Detecting CXX compile features
+[3.748s] -- Detecting CXX compile features - done
+[3.765s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.945s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.657s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.123s] -- Configuring done
+[7.210s] -- Generating done
+[7.254s] -- Build files have been written to: /home/rosdev/ros2_ws/build/my_robot_moveit_config
+[7.322s] Invoked command in '/home/rosdev/ros2_ws/build/my_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/my_robot_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/my_robot_moveit_config
+[7.323s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_moveit_config': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/my_robot_moveit_config -- -j12 -l12
+[7.727s] Invoked command in '/home/rosdev/ros2_ws/build/my_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/my_robot_moveit_config -- -j12 -l12
+[7.728s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_moveit_config': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/my_robot_moveit_config
+[7.786s] -- Install configuration: "Release"
+[7.790s] -- Execute custom install script
+[7.794s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/my_robot_moveit_config
+[7.851s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/my_robot_moveit_config
+[7.966s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/ament_prefix_path.sh
+[8.117s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/ament_prefix_path.dsv
+[8.202s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/path.sh
+[8.401s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/path.dsv
+[8.451s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.bash
+[8.547s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.sh
+[8.653s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.zsh
+[8.757s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.dsv
+[8.832s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.dsv
+[8.904s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/ament_index/resource_index/packages/my_robot_moveit_config
+[8.977s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/cmake/my_robot_moveit_configConfig.cmake
+[9.085s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/cmake/my_robot_moveit_configConfig-version.cmake
+[9.167s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.xml
+[9.663s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/demo.launch.py
+[9.759s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/demo_with_controllers.launch.py
+[9.826s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/move_group.launch.py
+[9.904s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/moveit_rviz.launch.py
+[10.003s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/rsp.launch.py
+[10.123s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/setup_assistant.launch.py
+[10.231s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/spawn_controllers.launch.py
+[10.341s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[10.435s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/warehouse_db.launch.py
+[10.773s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/FASTbot.ros2_control.xacro
+[10.887s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/FASTbot.srdf
+[11.024s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/FASTbot.urdf.xacro
+[11.146s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/chomp_planning.yaml
+[11.246s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/initial_positions.yaml
+[11.398s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/joint_limits.yaml
+[11.577s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/kinematics.yaml
+[11.629s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/moveit.rviz
+[11.689s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/moveit_controllers.yaml
+[11.743s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/ompl_planning.yaml
+[11.809s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/pilz_cartesian_limits.yaml
+[11.921s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[11.987s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/ros2_controllers.yaml
+[12.085s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/.setup_assistant
+[12.212s] Invoked command in '/home/rosdev/ros2_ws/build/my_robot_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosdev/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/my_robot_moveit_config

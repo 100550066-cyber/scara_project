@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_compliance_controller/include/**",
+        "/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_base/include/**",
+        "/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_handles/include/**",
+        "/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_simulation/include/**",
+        "/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller/include/**",
+        "/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_motion_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,7 @@
+In file included from [01m[K/home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h:46[m[K,
+                 from [01m[K/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller/include/cartesian_force_controller/cartesian_force_controller.h:44[m[K,
+                 from [01m[K/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller/src/cartesian_force_controller.cpp:40[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+   22 | e is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                  [01;36m[K^[m[K
+

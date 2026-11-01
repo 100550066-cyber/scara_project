@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-b89d528e78750cba7c9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_tests_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "move_cartesian_program::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_cartesian_program-Release-88ed445fefd067de61e5.json",
+					"name" : "move_cartesian_program",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_named_target_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_named_target_example-Release-3e8eac01a80dcba4703e.json",
+					"name" : "move_named_target_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_target_program::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_target_program-Release-764bdca6e21418b64a38.json",
+					"name" : "move_target_program",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_tests_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_tests_pkg_uninstall-Release-b72db3203a623eb58db1.json",
+					"name" : "moveit_tests_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b519ad73f3e69a53f92f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rosdev/ros2_ws/build/moveit_tests_pkg",
+		"source" : "/home/rosdev/ros2_ws/src/franka/moveit_tests_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

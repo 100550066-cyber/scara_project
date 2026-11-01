@@ -1,0 +1,2 @@
+source;share/moveit_tests_pkg/environment/ament_prefix_path.sh
+source;share/moveit_tests_pkg/environment/path.sh

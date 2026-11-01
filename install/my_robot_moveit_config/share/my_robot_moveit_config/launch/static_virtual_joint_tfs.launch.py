@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/src/my_robot_moveit_config/launch/static_virtual_joint_tfs.launch.py

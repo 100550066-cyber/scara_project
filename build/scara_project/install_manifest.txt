@@ -1,0 +1,15 @@
+/home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/package_run_dependencies/scara_project
+/home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/parent_prefix_path/scara_project
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/ament_prefix_path.sh
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/ament_prefix_path.dsv
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/path.sh
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/path.dsv
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.bash
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.sh
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.zsh
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.dsv
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.dsv
+/home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/packages/scara_project
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/cmake/scara_projectConfig.cmake
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/cmake/scara_projectConfig-version.cmake
+/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.xml

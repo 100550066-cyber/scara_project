@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msgs/srv/CheckEvenOdd.srv
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module srv {
+    struct CheckEvenOdd_Request {
+      int64 number;
+    };
+    struct CheckEvenOdd_Response {
+      string result;
+    };
+  };
+};

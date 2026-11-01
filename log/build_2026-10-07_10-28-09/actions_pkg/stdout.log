@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating actions_pkg.egg-info
+writing actions_pkg.egg-info/PKG-INFO
+writing dependency_links to actions_pkg.egg-info/dependency_links.txt
+writing entry points to actions_pkg.egg-info/entry_points.txt
+writing requirements to actions_pkg.egg-info/requires.txt
+writing top-level names to actions_pkg.egg-info/top_level.txt
+writing manifest file 'actions_pkg.egg-info/SOURCES.txt'
+reading manifest file 'actions_pkg.egg-info/SOURCES.txt'
+writing manifest file 'actions_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosdev/ros2_ws/install/actions_pkg/lib/python3.10/site-packages/actions-pkg.egg-link (link to .)
+Installing fibonacci_client script to /home/rosdev/ros2_ws/install/actions_pkg/lib/actions_pkg
+Installing fibonacci_server script to /home/rosdev/ros2_ws/install/actions_pkg/lib/actions_pkg
+
+Installed /home/rosdev/ros2_ws/build/actions_pkg
+running symlink_data
+creating /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index
+creating /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index/resource_index
+creating /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/actions_pkg/resource/actions_pkg -> /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/actions_pkg/package.xml -> /home/rosdev/ros2_ws/install/actions_pkg/share/actions_pkg

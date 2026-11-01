@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating python_scripts_pkg.egg-info
+writing python_scripts_pkg.egg-info/PKG-INFO
+writing dependency_links to python_scripts_pkg.egg-info/dependency_links.txt
+writing entry points to python_scripts_pkg.egg-info/entry_points.txt
+writing requirements to python_scripts_pkg.egg-info/requires.txt
+writing top-level names to python_scripts_pkg.egg-info/top_level.txt
+writing manifest file 'python_scripts_pkg.egg-info/SOURCES.txt'
+reading manifest file 'python_scripts_pkg.egg-info/SOURCES.txt'
+writing manifest file 'python_scripts_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python3.10/site-packages/python-scripts-pkg.egg-link (link to .)
+Installing interactive_marker_rviz script to /home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python_scripts_pkg
+
+Installed /home/rosdev/ros2_ws/build/python_scripts_pkg
+running symlink_data
+creating /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index
+creating /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index/resource_index
+creating /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/python_scripts_pkg/resource/python_scripts_pkg -> /home/rosdev/ros2_ws/install/python_scripts_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/python_scripts_pkg/package.xml -> /home/rosdev/ros2_ws/install/python_scripts_pkg/share/python_scripts_pkg
