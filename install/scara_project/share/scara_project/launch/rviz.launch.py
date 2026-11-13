@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/src/scara_project/launch/rviz.launch.py

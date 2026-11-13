@@ -1,0 +1,429 @@
+[1.185s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'scara_project']
+[1.185s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['scara_project'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70d8affd6290>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70d8b00c7550>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70d8b00c7550>>, mixin_verb=('build',))
+[2.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.032s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rosdev/ros2_ws'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extension 'ignore'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extensions ['colcon_pkg']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extension 'colcon_pkg'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extensions ['colcon_meta']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extension 'colcon_meta'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extensions ['ros']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/actions_pkg) by extension 'ros'
+[2.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/actions_pkg' with type 'ros.ament_python' and name 'actions_pkg'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore_ament_install'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_pkg']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_pkg'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_meta']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_meta'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ros']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ros'
+[2.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extensions ['ignore', 'ignore_ament_install']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'ignore'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'ignore_ament_install'
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extensions ['colcon_pkg']
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'colcon_pkg'
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extensions ['colcon_meta']
+[2.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'colcon_meta'
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extensions ['ros']
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'ros'
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extensions ['cmake', 'python']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'cmake'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'python'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extensions ['python_setup_py']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka) by extension 'python_setup_py'
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extensions ['ignore', 'ignore_ament_install']
+[2.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'ignore'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'ignore_ament_install'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extensions ['colcon_pkg']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'colcon_pkg'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extensions ['colcon_meta']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'colcon_meta'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extensions ['ros']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'ros'
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extensions ['cmake', 'python']
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'cmake'
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'python'
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extensions ['python_setup_py']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers) by extension 'python_setup_py'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extensions ['ignore', 'ignore_ament_install']
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'ignore'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'ignore_ament_install'
+[2.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extensions ['colcon_pkg']
+[2.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'colcon_pkg'
+[2.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extensions ['colcon_meta']
+[2.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'colcon_meta'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extensions ['ros']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'ros'
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extensions ['cmake', 'python']
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'cmake'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'python'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extensions ['python_setup_py']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/LICENSES) by extension 'python_setup_py'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'ignore'
+[3.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'ignore_ament_install'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['colcon_pkg']
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'colcon_pkg'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['colcon_meta']
+[3.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'colcon_meta'
+[3.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extensions ['ros']
+[3.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_compliance_controller) by extension 'ros'
+[3.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_compliance_controller' with type 'ros.ament_cmake' and name 'cartesian_compliance_controller'
+[3.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['ignore', 'ignore_ament_install']
+[3.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extension 'ignore'
+[3.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extension 'ignore_ament_install'
+[3.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['colcon_pkg']
+[3.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extension 'colcon_pkg'
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['colcon_meta']
+[3.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extension 'colcon_meta'
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extensions ['ros']
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_base) by extension 'ros'
+[3.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_controller_base' with type 'ros.ament_cmake' and name 'cartesian_controller_base'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['ignore', 'ignore_ament_install']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'ignore'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'ignore_ament_install'
+[3.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['colcon_pkg']
+[3.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'colcon_pkg'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['colcon_meta']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'colcon_meta'
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extensions ['ros']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_handles) by extension 'ros'
+[3.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_controller_handles' with type 'ros.ament_cmake' and name 'cartesian_controller_handles'
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['ignore', 'ignore_ament_install']
+[3.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'ignore'
+[3.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'ignore_ament_install'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['colcon_pkg']
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'colcon_pkg'
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['colcon_meta']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'colcon_meta'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extensions ['ros']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_simulation) by extension 'ros'
+[3.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_controller_simulation' with type 'ros.ament_cmake' and name 'cartesian_controller_simulation'
+[3.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['ignore', 'ignore_ament_install']
+[3.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'ignore'
+[3.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'ignore_ament_install'
+[3.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['colcon_pkg']
+[3.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'colcon_pkg'
+[3.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['colcon_meta']
+[3.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'colcon_meta'
+[3.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extensions ['ros']
+[3.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_tests) by extension 'ros'
+[3.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_controller_tests' with type 'ros.catkin' and name 'cartesian_controller_tests'
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['ignore', 'ignore_ament_install']
+[3.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'ignore'
+[3.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'ignore_ament_install'
+[3.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['colcon_pkg']
+[3.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'colcon_pkg'
+[3.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['colcon_meta']
+[3.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'colcon_meta'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extensions ['ros']
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_controller_utilities) by extension 'ros'
+[3.631s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_controller_utilities' with type 'ros.ament_cmake' and name 'cartesian_controller_utilities'
+[3.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extension 'ignore'
+[3.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extension 'ignore_ament_install'
+[3.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['colcon_pkg']
+[3.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extension 'colcon_pkg'
+[3.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['colcon_meta']
+[3.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extension 'colcon_meta'
+[3.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extensions ['ros']
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_force_controller) by extension 'ros'
+[3.688s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_force_controller' with type 'ros.ament_cmake' and name 'cartesian_force_controller'
+[3.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.702s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'ignore'
+[3.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'ignore_ament_install'
+[3.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['colcon_pkg']
+[3.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'colcon_pkg'
+[3.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['colcon_meta']
+[3.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'colcon_meta'
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extensions ['ros']
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/cartesian_motion_controller) by extension 'ros'
+[3.752s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/cartesian_controllers/cartesian_motion_controller' with type 'ros.ament_cmake' and name 'cartesian_motion_controller'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extensions ['ignore', 'ignore_ament_install']
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'ignore'
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'ignore_ament_install'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extensions ['colcon_pkg']
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'colcon_pkg'
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extensions ['colcon_meta']
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'colcon_meta'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extensions ['ros']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'ros'
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extensions ['cmake', 'python']
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'cmake'
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'python'
+[3.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extensions ['python_setup_py']
+[3.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources) by extension 'python_setup_py'
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extensions ['ignore', 'ignore_ament_install']
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'ignore'
+[3.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'ignore_ament_install'
+[4.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extensions ['colcon_pkg']
+[4.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'colcon_pkg'
+[4.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extensions ['colcon_meta']
+[4.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'colcon_meta'
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extensions ['ros']
+[4.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'ros'
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extensions ['cmake', 'python']
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'cmake'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'python'
+[4.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extensions ['python_setup_py']
+[4.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/doc) by extension 'python_setup_py'
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extensions ['ignore', 'ignore_ament_install']
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'ignore'
+[4.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'ignore_ament_install'
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extensions ['colcon_pkg']
+[4.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'colcon_pkg'
+[4.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extensions ['colcon_meta']
+[4.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'colcon_meta'
+[4.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extensions ['ros']
+[4.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'ros'
+[4.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extensions ['cmake', 'python']
+[4.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'cmake'
+[4.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'python'
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extensions ['python_setup_py']
+[4.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/cartesian_controllers/resources/images) by extension 'python_setup_py'
+[4.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[4.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extension 'ignore'
+[4.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extension 'ignore_ament_install'
+[4.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extensions ['colcon_pkg']
+[4.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extension 'colcon_pkg'
+[4.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extensions ['colcon_meta']
+[4.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extension 'colcon_meta'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extensions ['ros']
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/custom_fr3_moveit_config) by extension 'ros'
+[4.563s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/custom_fr3_moveit_config' with type 'ros.ament_cmake' and name 'custom_fr3_moveit_config'
+[4.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extensions ['ignore', 'ignore_ament_install']
+[4.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extension 'ignore'
+[4.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extension 'ignore_ament_install'
+[4.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extensions ['colcon_pkg']
+[4.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extension 'colcon_pkg'
+[4.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extensions ['colcon_meta']
+[4.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extension 'colcon_meta'
+[4.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extensions ['ros']
+[4.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/franka_description) by extension 'ros'
+[4.661s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/franka_description' with type 'ros.ament_cmake' and name 'franka_description'
+[4.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extension 'ignore'
+[4.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extension 'ignore_ament_install'
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extensions ['colcon_pkg']
+[4.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extension 'colcon_pkg'
+[4.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extensions ['colcon_meta']
+[4.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extension 'colcon_meta'
+[4.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extensions ['ros']
+[4.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/moveit_tests_pkg) by extension 'ros'
+[4.753s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/moveit_tests_pkg' with type 'ros.ament_cmake' and name 'moveit_tests_pkg'
+[4.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extension 'ignore'
+[4.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extension 'ignore_ament_install'
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extensions ['colcon_pkg']
+[4.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extension 'colcon_pkg'
+[4.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extensions ['colcon_meta']
+[4.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extension 'colcon_meta'
+[4.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extensions ['ros']
+[4.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/franka/python_scripts_pkg) by extension 'ros'
+[4.921s] DEBUG:colcon.colcon_core.package_identification:Package 'src/franka/python_scripts_pkg' with type 'ros.ament_python' and name 'python_scripts_pkg'
+[4.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[4.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[4.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[4.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[4.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[4.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[4.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[5.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[5.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[5.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'ignore'
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'ignore_ament_install'
+[5.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['colcon_pkg']
+[5.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'colcon_pkg'
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['colcon_meta']
+[5.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'colcon_meta'
+[5.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extensions ['ros']
+[5.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_moveit_config) by extension 'ros'
+[5.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_moveit_config' with type 'ros.ament_cmake' and name 'my_robot_moveit_config'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extensions ['ignore', 'ignore_ament_install']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extension 'ignore'
+[5.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extension 'ignore_ament_install'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extensions ['colcon_pkg']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extension 'colcon_pkg'
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extensions ['colcon_meta']
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extension 'colcon_meta'
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extensions ['ros']
+[5.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara_project) by extension 'ros'
+[5.662s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara_project' with type 'ros.ament_cmake' and name 'scara_project'
+[5.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['ignore', 'ignore_ament_install']
+[5.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'ignore'
+[5.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'ignore_ament_install'
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['colcon_pkg']
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'colcon_pkg'
+[5.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['colcon_meta']
+[5.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'colcon_meta'
+[5.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['ros']
+[5.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'ros'
+[5.730s] DEBUG:colcon.colcon_core.package_identification:Package 'src/services_pkg' with type 'ros.ament_python' and name 'services_pkg'
+[5.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extension 'ignore'
+[5.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extension 'ignore_ament_install'
+[5.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extensions ['colcon_pkg']
+[5.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extension 'colcon_pkg'
+[5.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extensions ['colcon_meta']
+[5.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extension 'colcon_meta'
+[5.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extensions ['ros']
+[5.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_demo) by extension 'ros'
+[5.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_demo' with type 'ros.ament_python' and name 'tf2_demo'
+[5.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extensions ['ignore', 'ignore_ament_install']
+[5.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extension 'ignore'
+[5.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extension 'ignore_ament_install'
+[5.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extensions ['colcon_pkg']
+[5.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extension 'colcon_pkg'
+[5.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extensions ['colcon_meta']
+[5.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extension 'colcon_meta'
+[5.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extensions ['ros']
+[5.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/topics_pkg) by extension 'ros'
+[5.858s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topics_pkg' with type 'ros.ament_python' and name 'topics_pkg'
+[5.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'actions_pkg' in 'src/actions_pkg'
+[7.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_controller_base' in 'src/franka/cartesian_controllers/cartesian_controller_base'
+[7.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_controller_utilities' in 'src/franka/cartesian_controllers/cartesian_controller_utilities'
+[7.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_fr3_moveit_config' in 'src/franka/custom_fr3_moveit_config'
+[7.633s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_msgs' in 'src/custom_msgs'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'franka_description' in 'src/franka/franka_description'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_tests_pkg' in 'src/franka/moveit_tests_pkg'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_description' in 'src/my_robot_description'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'python_scripts_pkg' in 'src/franka/python_scripts_pkg'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'services_pkg' in 'src/services_pkg'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tf2_demo' in 'src/tf2_demo'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'topics_pkg' in 'src/topics_pkg'
+[7.634s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_controller_handles' in 'src/franka/cartesian_controllers/cartesian_controller_handles'
+[7.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_controller_simulation' in 'src/franka/cartesian_controllers/cartesian_controller_simulation'
+[7.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_force_controller' in 'src/franka/cartesian_controllers/cartesian_force_controller'
+[7.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_motion_controller' in 'src/franka/cartesian_controllers/cartesian_motion_controller'
+[7.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_moveit_config' in 'src/my_robot_moveit_config'
+[7.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_compliance_controller' in 'src/franka/cartesian_controllers/cartesian_compliance_controller'
+[7.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cartesian_controller_tests' in 'src/franka/cartesian_controllers/cartesian_controller_tests'
+[7.636s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'cmake_args' from command line to 'None'
+[7.636s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'cmake_target' from command line to 'None'
+[7.637s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.637s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'cmake_clean_cache' from command line to 'False'
+[7.637s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'cmake_clean_first' from command line to 'False'
+[7.637s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'cmake_force_configure' from command line to 'False'
+[7.637s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'ament_cmake_args' from command line to 'None'
+[7.637s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'catkin_cmake_args' from command line to 'None'
+[7.637s] Level 5:colcon.colcon_core.verb:set package 'scara_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.637s] DEBUG:colcon.colcon_core.verb:Building package 'scara_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosdev/ros2_ws/build/scara_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosdev/ros2_ws/install/scara_project', 'merge_install': False, 'path': '/home/rosdev/ros2_ws/src/scara_project', 'symlink_install': False, 'test_result_base': None}
+[7.639s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.645s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosdev/ros2_ws/src/scara_project' with build type 'ament_cmake'
+[7.646s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosdev/ros2_ws/src/scara_project'
+[7.665s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12
+[8.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12
+[8.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_project
+[9.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_project)
+[9.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_project
+[9.386s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project' for CMake module files
+[9.389s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project' for CMake config files
+[9.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_project', 'cmake_prefix_path')
+[9.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/hook/cmake_prefix_path.ps1'
+[9.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/hook/cmake_prefix_path.dsv'
+[9.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/hook/cmake_prefix_path.sh'
+[9.400s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/bin'
+[9.400s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/lib/pkgconfig/scara_project.pc'
+[9.406s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/lib/python3.10/site-packages'
+[9.407s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/bin'
+[9.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.ps1'
+[9.418s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.dsv'
+[9.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.sh'
+[9.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.bash'
+[9.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.zsh'
+[9.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosdev/ros2_ws/install/scara_project/share/colcon-core/packages/scara_project)
+[9.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara_project)
+[9.438s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project' for CMake module files
+[9.440s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project' for CMake config files
+[9.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara_project', 'cmake_prefix_path')
+[9.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/hook/cmake_prefix_path.ps1'
+[9.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/hook/cmake_prefix_path.dsv'
+[9.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/hook/cmake_prefix_path.sh'
+[9.445s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/bin'
+[9.446s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/lib/pkgconfig/scara_project.pc'
+[9.446s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/lib/python3.10/site-packages'
+[9.447s] Level 1:colcon.colcon_core.environment:checking '/home/rosdev/ros2_ws/install/scara_project/bin'
+[9.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.ps1'
+[9.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.dsv'
+[9.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.sh'
+[9.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.bash'
+[9.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.zsh'
+[9.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosdev/ros2_ws/install/scara_project/share/colcon-core/packages/scara_project)
+[9.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.461s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.500s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.529s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[9.530s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosdev/ros2_ws/install/local_setup.ps1'
+[9.535s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosdev/ros2_ws/install/_local_setup_util_ps1.py'
+[9.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosdev/ros2_ws/install/setup.ps1'
+[9.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosdev/ros2_ws/install/local_setup.sh'
+[9.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosdev/ros2_ws/install/_local_setup_util_sh.py'
+[9.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosdev/ros2_ws/install/setup.sh'
+[9.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosdev/ros2_ws/install/local_setup.bash'
+[9.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosdev/ros2_ws/install/setup.bash'
+[9.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosdev/ros2_ws/install/local_setup.zsh'
+[9.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosdev/ros2_ws/install/setup.zsh'

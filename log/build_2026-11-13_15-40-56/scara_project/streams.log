@@ -1,0 +1,27 @@
+[0.080s] Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12
+[0.230s] Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12
+[0.264s] Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_project
+[0.282s] -- Install configuration: ""
+[0.326s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf
+[0.388s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf/scara.urdf.xacro
+[0.416s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf/scara_standalone.urdf.xacro
+[0.426s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/launch
+[0.452s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/launch/rviz.launch.py
+[0.494s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/rviz
+[0.526s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/rviz/visualize_robot.rviz
+[0.527s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/package_run_dependencies/scara_project
+[0.528s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/parent_prefix_path/scara_project
+[0.528s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/ament_prefix_path.dsv
+[0.530s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/path.sh
+[0.530s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/path.dsv
+[0.530s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.bash
+[0.531s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.sh
+[0.531s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.zsh
+[0.531s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.dsv
+[0.531s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.dsv
+[0.532s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/packages/scara_project
+[0.532s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/cmake/scara_projectConfig.cmake
+[0.532s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/cmake/scara_projectConfig-version.cmake
+[0.542s] -- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.xml
+[0.549s] Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_project

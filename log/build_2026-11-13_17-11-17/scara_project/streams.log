@@ -1,0 +1,27 @@
+[0.043s] Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12
+[0.189s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.551s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.619s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.628s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.644s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.826s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.829s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.905s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.910s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.191s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.633s] [31mCMake Error at CMakeLists.txt:13 (install):
+[1.633s]   install DIRECTORY given non-directory "config" to install.
+[1.634s] 
+[1.634s] [0m
+[1.634s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.433s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.775s] -- Added test 'lint_cmake' to check CMake code style
+[3.958s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.608s] -- Added test 'xmllint' to check XML markup files
+[5.616s] -- Configuring incomplete, errors occurred!
+[5.617s] See also "/home/rosdev/ros2_ws/build/scara_project/CMakeFiles/CMakeOutput.log".
+[5.630s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[5.635s] Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12

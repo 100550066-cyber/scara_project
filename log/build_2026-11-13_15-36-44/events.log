@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.001650] (-) JobUnselected: {'identifier': 'actions_pkg'}
+[0.001789] (-) JobUnselected: {'identifier': 'cartesian_compliance_controller'}
+[0.002522] (-) JobUnselected: {'identifier': 'cartesian_controller_base'}
+[0.003037] (-) JobUnselected: {'identifier': 'cartesian_controller_handles'}
+[0.003303] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation'}
+[0.003453] (-) JobUnselected: {'identifier': 'cartesian_controller_tests'}
+[0.003551] (-) JobUnselected: {'identifier': 'cartesian_controller_utilities'}
+[0.003654] (-) JobUnselected: {'identifier': 'cartesian_force_controller'}
+[0.003705] (-) JobUnselected: {'identifier': 'cartesian_motion_controller'}
+[0.003798] (-) JobUnselected: {'identifier': 'custom_fr3_moveit_config'}
+[0.004208] (-) JobUnselected: {'identifier': 'custom_msgs'}
+[0.004483] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.005276] (-) JobUnselected: {'identifier': 'moveit_tests_pkg'}
+[0.005755] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.005955] (-) JobUnselected: {'identifier': 'my_robot_moveit_config'}
+[0.006614] (-) JobUnselected: {'identifier': 'python_scripts_pkg'}
+[0.007021] (-) JobUnselected: {'identifier': 'services_pkg'}
+[0.007286] (-) JobUnselected: {'identifier': 'tf2_demo'}
+[0.008308] (-) JobUnselected: {'identifier': 'topics_pkg'}
+[0.009163] (scara_project) JobQueued: {'identifier': 'scara_project', 'dependencies': OrderedDict()}
+[0.009894] (scara_project) JobStarted: {'identifier': 'scara_project'}
+[0.061487] (scara_project) JobProgress: {'identifier': 'scara_project', 'progress': 'cmake'}
+[0.063859] (scara_project) JobProgress: {'identifier': 'scara_project', 'progress': 'build'}
+[0.065672] (scara_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rosdev/ros2_ws/build/scara_project', '--', '-j12', '-l12'], 'cwd': '/home/rosdev/ros2_ws/build/scara_project', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosdev/ros2_ws/install/custom_msgs/lib:/home/rosdev/ros2_ws/install/cartesian_compliance_controller/lib:/home/rosdev/ros2_ws/install/cartesian_motion_controller/lib:/home/rosdev/ros2_ws/install/cartesian_force_controller/lib:/home/rosdev/ros2_ws/install/cartesian_controller_handles/lib:/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh'), ('HOME', '/home/rosdev'), ('TERM_PROGRAM_VERSION', '1.145.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3121d974-26ed-40a6-a892-45e601833a8d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-fc48fe7a-c806-42cb-8e72-a4ee99f3ee30.sock'), ('COLCON_PREFIX_PATH', '/home/rosdev/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-09848e26-4ef4-41ab-b3b9-a8685c2fae00.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/rosdev/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/rosdev/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'host.docker.internal:0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8dcb7d1cfdaec008.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/rosdev/.vscode-server/data/User/workspaceStorage/ab325456f164974fe67ca4f9360e675e/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-15727d6b8a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/scara_project:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/my_robot_moveit_config:/home/rosdev/ros2_ws/install/my_robot_description:/home/rosdev/ros2_ws/install/moveit_tests_pkg:/home/rosdev/ros2_ws/install/franka_description:/home/rosdev/ros2_ws/install/custom_msgs:/home/rosdev/ros2_ws/install/custom_fr3_moveit_config:/home/rosdev/ros2_ws/install/cartesian_compliance_controller:/home/rosdev/ros2_ws/install/cartesian_motion_controller:/home/rosdev/ros2_ws/install/cartesian_force_controller:/home/rosdev/ros2_ws/install/cartesian_controller_utilities:/home/rosdev/ros2_ws/install/cartesian_controller_handles:/home/rosdev/ros2_ws/install/cartesian_controller_base:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosdev/ros2_ws/build/scara_project'), ('LC_ALL', 'C.UTF-8'), ('COPILOT_DEBUG_NONCE', '2181ff6c94056fb90fb9cbaa6833a978'), ('PYTHONPATH', '/home/rosdev/ros2_ws/build/topics_pkg:/home/rosdev/ros2_ws/install/topics_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/tf2_demo:/home/rosdev/ros2_ws/install/tf2_demo/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/services_pkg:/home/rosdev/ros2_ws/install/services_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/python_scripts_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/build/actions_pkg:/home/rosdev/ros2_ws/install/actions_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosdev/ros2_ws/install/scara_project:/home/rosdev/ros2_ws/install/my_robot_moveit_config:/home/rosdev/ros2_ws/install/my_robot_description:/home/rosdev/ros2_ws/install/moveit_tests_pkg:/home/rosdev/ros2_ws/install/franka_description:/home/rosdev/ros2_ws/install/custom_msgs:/home/rosdev/ros2_ws/install/custom_fr3_moveit_config:/home/rosdev/ros2_ws/install/cartesian_compliance_controller:/home/rosdev/ros2_ws/install/cartesian_motion_controller:/home/rosdev/ros2_ws/install/cartesian_force_controller:/home/rosdev/ros2_ws/install/cartesian_controller_utilities:/home/rosdev/ros2_ws/install/cartesian_controller_handles:/home/rosdev/ros2_ws/install/cartesian_controller_base:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099110] (-) TimerEvent: {}
+[0.199945] (-) TimerEvent: {}
+[0.300706] (-) TimerEvent: {}
+[0.360491] (scara_project) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400950] (-) TimerEvent: {}
+[0.501633] (-) TimerEvent: {}
+[0.602330] (-) TimerEvent: {}
+[0.703097] (-) TimerEvent: {}
+[0.803993] (-) TimerEvent: {}
+[0.898173] (scara_project) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.901123] (scara_project) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[0.904173] (-) TimerEvent: {}
+[1.004810] (-) TimerEvent: {}
+[1.024873] (scara_project) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.040773] (scara_project) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.071715] (scara_project) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.105079] (-) TimerEvent: {}
+[1.119928] (scara_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.183078] (scara_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205398] (-) TimerEvent: {}
+[1.306117] (-) TimerEvent: {}
+[1.361473] (scara_project) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.365541] (scara_project) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.406381] (-) TimerEvent: {}
+[1.508564] (-) TimerEvent: {}
+[1.514638] (scara_project) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.526880] (scara_project) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.607511] (-) TimerEvent: {}
+[1.708280] (-) TimerEvent: {}
+[1.809245] (-) TimerEvent: {}
+[1.909999] (-) TimerEvent: {}
+[2.002405] (scara_project) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.010262] (-) TimerEvent: {}
+[2.111054] (-) TimerEvent: {}
+[2.211940] (-) TimerEvent: {}
+[2.312821] (-) TimerEvent: {}
+[2.413627] (-) TimerEvent: {}
+[2.514437] (-) TimerEvent: {}
+[2.615373] (-) TimerEvent: {}
+[2.716268] (-) TimerEvent: {}
+[2.812589] (scara_project) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.816398] (-) TimerEvent: {}
+[2.916970] (-) TimerEvent: {}
+[3.017643] (-) TimerEvent: {}
+[3.118617] (-) TimerEvent: {}
+[3.219566] (-) TimerEvent: {}
+[3.320467] (-) TimerEvent: {}
+[3.421130] (-) TimerEvent: {}
+[3.521963] (-) TimerEvent: {}
+[3.622755] (-) TimerEvent: {}
+[3.723671] (-) TimerEvent: {}
+[3.824484] (-) TimerEvent: {}
+[3.930776] (-) TimerEvent: {}
+[4.031897] (-) TimerEvent: {}
+[4.132771] (-) TimerEvent: {}
+[4.233591] (-) TimerEvent: {}
+[4.334432] (-) TimerEvent: {}
+[4.435274] (-) TimerEvent: {}
+[4.536151] (-) TimerEvent: {}
+[4.636993] (-) TimerEvent: {}
+[4.693275] (scara_project) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.737288] (-) TimerEvent: {}
+[4.838158] (-) TimerEvent: {}
+[4.938957] (-) TimerEvent: {}
+[5.031068] (scara_project) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.039270] (-) TimerEvent: {}
+[5.139971] (-) TimerEvent: {}
+[5.198403] (scara_project) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.240204] (-) TimerEvent: {}
+[5.341002] (-) TimerEvent: {}
+[5.441787] (-) TimerEvent: {}
+[5.542570] (-) TimerEvent: {}
+[5.643576] (-) TimerEvent: {}
+[5.744326] (-) TimerEvent: {}
+[5.845132] (-) TimerEvent: {}
+[5.945887] (-) TimerEvent: {}
+[6.046678] (-) TimerEvent: {}
+[6.147608] (-) TimerEvent: {}
+[6.248498] (-) TimerEvent: {}
+[6.349423] (-) TimerEvent: {}
+[6.450161] (-) TimerEvent: {}
+[6.550810] (-) TimerEvent: {}
+[6.651576] (-) TimerEvent: {}
+[6.752431] (-) TimerEvent: {}
+[6.853271] (-) TimerEvent: {}
+[6.954082] (-) TimerEvent: {}
+[7.054895] (-) TimerEvent: {}
+[7.055924] (scara_project) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.093851] (scara_project) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.146654] (scara_project) StdoutLine: {'line': b'-- Generating done\n'}
+[7.155147] (-) TimerEvent: {}
+[7.160560] (scara_project) StdoutLine: {'line': b'-- Build files have been written to: /home/rosdev/ros2_ws/build/scara_project\n'}
+[7.237484] (scara_project) CommandEnded: {'returncode': 0}
+[7.240874] (scara_project) JobProgress: {'identifier': 'scara_project', 'progress': 'install'}
+[7.255397] (-) TimerEvent: {}
+[7.259486] (scara_project) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rosdev/ros2_ws/build/scara_project'], 'cwd': '/home/rosdev/ros2_ws/build/scara_project', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosdev/ros2_ws/install/custom_msgs/lib:/home/rosdev/ros2_ws/install/cartesian_compliance_controller/lib:/home/rosdev/ros2_ws/install/cartesian_motion_controller/lib:/home/rosdev/ros2_ws/install/cartesian_force_controller/lib:/home/rosdev/ros2_ws/install/cartesian_controller_handles/lib:/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/bin/helpers/browser.sh'), ('HOME', '/home/rosdev'), ('TERM_PROGRAM_VERSION', '1.145.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3121d974-26ed-40a6-a892-45e601833a8d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-fc48fe7a-c806-42cb-8e72-a4ee99f3ee30.sock'), ('COLCON_PREFIX_PATH', '/home/rosdev/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-09848e26-4ef4-41ab-b3b9-a8685c2fae00.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/rosdev/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/vscode/vscode-server/bin/linux-x64/a717861c07586a53d83b80d742cd3f59b20a6273/bin/copilot-shim'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/rosdev/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'host.docker.internal:0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8dcb7d1cfdaec008.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/rosdev/.vscode-server/data/User/workspaceStorage/ab325456f164974fe67ca4f9360e675e/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-15727d6b8a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/scara_project:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/my_robot_moveit_config:/home/rosdev/ros2_ws/install/my_robot_description:/home/rosdev/ros2_ws/install/moveit_tests_pkg:/home/rosdev/ros2_ws/install/franka_description:/home/rosdev/ros2_ws/install/custom_msgs:/home/rosdev/ros2_ws/install/custom_fr3_moveit_config:/home/rosdev/ros2_ws/install/cartesian_compliance_controller:/home/rosdev/ros2_ws/install/cartesian_motion_controller:/home/rosdev/ros2_ws/install/cartesian_force_controller:/home/rosdev/ros2_ws/install/cartesian_controller_utilities:/home/rosdev/ros2_ws/install/cartesian_controller_handles:/home/rosdev/ros2_ws/install/cartesian_controller_base:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosdev/ros2_ws/build/scara_project'), ('LC_ALL', 'C.UTF-8'), ('COPILOT_DEBUG_NONCE', '2181ff6c94056fb90fb9cbaa6833a978'), ('PYTHONPATH', '/home/rosdev/ros2_ws/build/topics_pkg:/home/rosdev/ros2_ws/install/topics_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/tf2_demo:/home/rosdev/ros2_ws/install/tf2_demo/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/services_pkg:/home/rosdev/ros2_ws/install/services_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/python_scripts_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/build/actions_pkg:/home/rosdev/ros2_ws/install/actions_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosdev/ros2_ws/install/scara_project:/home/rosdev/ros2_ws/install/my_robot_moveit_config:/home/rosdev/ros2_ws/install/my_robot_description:/home/rosdev/ros2_ws/install/moveit_tests_pkg:/home/rosdev/ros2_ws/install/franka_description:/home/rosdev/ros2_ws/install/custom_msgs:/home/rosdev/ros2_ws/install/custom_fr3_moveit_config:/home/rosdev/ros2_ws/install/cartesian_compliance_controller:/home/rosdev/ros2_ws/install/cartesian_motion_controller:/home/rosdev/ros2_ws/install/cartesian_force_controller:/home/rosdev/ros2_ws/install/cartesian_controller_utilities:/home/rosdev/ros2_ws/install/cartesian_controller_handles:/home/rosdev/ros2_ws/install/cartesian_controller_base:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble')]), 'shell': False}
+[7.282892] (scara_project) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.296124] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf\n'}
+[7.338088] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf/scara.urdf.xacro\n'}
+[7.355685] (-) TimerEvent: {}
+[7.400547] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf/scara_standalone.urdf.xacro\n'}
+[7.445505] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/launch\n'}
+[7.455865] (-) TimerEvent: {}
+[7.476066] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/launch/rviz.launch.py\n'}
+[7.520002] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/rviz\n'}
+[7.556407] (-) TimerEvent: {}
+[7.597974] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/rviz/visualize_robot.rviz\n'}
+[7.654140] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/package_run_dependencies/scara_project\n'}
+[7.654665] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/parent_prefix_path/scara_project\n'}
+[7.655264] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/ament_prefix_path.sh\n'}
+[7.656242] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/ament_prefix_path.dsv\n'}
+[7.656627] (-) TimerEvent: {}
+[7.657632] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/path.sh\n'}
+[7.658053] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/environment/path.dsv\n'}
+[7.658682] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.bash\n'}
+[7.659349] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.sh\n'}
+[7.659745] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.zsh\n'}
+[7.660495] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/local_setup.dsv\n'}
+[7.660734] (scara_project) StdoutLine: {'line': b'-- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.dsv\n'}
+[7.660891] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/ament_index/resource_index/packages/scara_project\n'}
+[7.661013] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/cmake/scara_projectConfig.cmake\n'}
+[7.661130] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/cmake/scara_projectConfig-version.cmake\n'}
+[7.681228] (scara_project) StdoutLine: {'line': b'-- Up-to-date: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/package.xml\n'}
+[7.686219] (scara_project) CommandEnded: {'returncode': 0}
+[7.741970] (scara_project) JobEnded: {'identifier': 'scara_project', 'rc': 0}
+[7.745536] (-) EventReactorShutdown: {}

@@ -1,0 +1,40 @@
+[0.058s] Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/scara_project -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/scara_project
+[0.186s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.551s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.553s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.635s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.641s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.657s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.840s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.844s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.973s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.985s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.296s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.768s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.438s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.753s] -- Added test 'lint_cmake' to check CMake code style
+[3.911s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.610s] -- Added test 'xmllint' to check XML markup files
+[5.622s] -- Configuring done
+[5.674s] -- Generating done
+[5.690s] -- Build files have been written to: /home/rosdev/ros2_ws/build/scara_project
+[5.712s] Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/scara_project -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/scara_project
+[5.719s] Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12
+[5.833s] Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_project -- -j12 -l12
+[5.855s] Invoking command in '/home/rosdev/ros2_ws/build/scara_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_project
+[5.873s] -- Install configuration: ""
+[5.889s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf
+[5.920s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf/scara.urdf.xacro
+[5.986s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/urdf/scara_body.urdf.xacro
+[6.030s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/launch
+[6.061s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/launch/rviz.launch.py
+[6.101s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/rviz
+[6.131s] -- Installing: /home/rosdev/ros2_ws/install/scara_project/share/scara_project/rviz/visualize_robot.rviz
+[6.180s] [31mCMake Error at cmake_install.cmake:46 (file):
+[6.181s]   file INSTALL cannot find "/home/rosdev/ros2_ws/src/scara_project/config":
+[6.181s]   No such file or directory.
+[6.181s] 
+[6.183s] [0m
+[6.186s] Invoked command in '/home/rosdev/ros2_ws/build/scara_project' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_project

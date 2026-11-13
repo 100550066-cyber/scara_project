@@ -14,6 +14,10 @@ install(
   DIRECTORY config launch urdf rviz
   DESTINATION share/${PROJECT_NAME}
 )
+install(DIRECTORY urdf launch rviz
+  DESTINATION share/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
