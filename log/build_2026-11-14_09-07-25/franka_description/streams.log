@@ -1,0 +1,25 @@
+[2.292s] Invoking command in '/home/rosdev/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/franka_description
+[6.973s] -- The C compiler identification is GNU 11.4.0
+[6.974s] -- The CXX compiler identification is GNU 11.4.0
+[6.974s] -- Detecting C compiler ABI info
+[6.975s] -- Detecting C compiler ABI info - done
+[6.976s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.978s] -- Detecting C compile features
+[6.978s] -- Detecting C compile features - done
+[6.978s] -- Detecting CXX compiler ABI info
+[6.978s] -- Detecting CXX compiler ABI info - done
+[6.990s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.990s] -- Detecting CXX compile features
+[6.991s] -- Detecting CXX compile features - done
+[6.991s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.991s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.991s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.993s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.485s] -- Added test 'copyright' to check source files copyright and LICENSE
+[195.254s] -- Added test 'flake8' to check Python code syntax and style conventions
+[213.301s] -- Added test 'lint_cmake' to check CMake code style
+[221.179s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[285.017s] -- Added test 'xmllint' to check XML markup files
+[285.039s] -- Configuring done
+[285.076s] -- Generating done
+[285.085s] -- Build files have been written to: /home/rosdev/ros2_ws/build/franka_description

@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/build/scara_description/rosidl_typesupport_introspection_c/scara_description/srv/detail/get_end_effector_pose__rosidl_typesupport_introspection_c.h

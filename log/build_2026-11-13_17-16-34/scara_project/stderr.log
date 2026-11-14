@@ -1,4 +1,0 @@
-[31mCMake Error at CMakeLists.txt:13 (install):
-  install DIRECTORY given non-directory "config" to install.
-
-[0m

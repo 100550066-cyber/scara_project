@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target move_cartesian_program[0m
+[35m[1mConsolidate compiler generated dependencies of target move_target_program[0m
+[35m[1mConsolidate compiler generated dependencies of target move_named_target_example[0m
+[ 33%] Built target move_cartesian_program
+[ 66%] Built target move_named_target_example
+[100%] Built target move_target_program
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_cartesian_program
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_target_program
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_named_target_example
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_tests_pkg
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_tests_pkg
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/path.sh
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/path.dsv
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.bash
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.sh
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.zsh
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.dsv
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/package.dsv
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/packages/moveit_tests_pkg
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/cmake/moveit_tests_pkgConfig.cmake
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/cmake/moveit_tests_pkgConfig-version.cmake
+-- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/package.xml

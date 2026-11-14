@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/scara_client
+scara_client/__init__.py
+scara_client.egg-info/PKG-INFO
+scara_client.egg-info/SOURCES.txt
+scara_client.egg-info/dependency_links.txt
+scara_client.egg-info/entry_points.txt
+scara_client.egg-info/requires.txt
+scara_client.egg-info/top_level.txt
+scara_client.egg-info/zip-safe

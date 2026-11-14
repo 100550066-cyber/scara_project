@@ -1,0 +1,189 @@
+[6.592s] Invoking command in '/home/rosdev/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/scara_project/scara_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/scara_description
+[7.131s] -- The C compiler identification is GNU 11.4.0
+[7.593s] -- The CXX compiler identification is GNU 11.4.0
+[7.671s] -- Detecting C compiler ABI info
+[8.478s] -- Detecting C compiler ABI info - done
+[8.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.551s] -- Detecting C compile features
+[8.552s] -- Detecting C compile features - done
+[8.591s] -- Detecting CXX compiler ABI info
+[9.184s] -- Detecting CXX compiler ABI info - done
+[9.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.289s] -- Detecting CXX compile features
+[9.290s] -- Detecting CXX compile features - done
+[9.296s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.300s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.909s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.356s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[12.137s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.253s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.473s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.576s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.203s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[18.058s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[23.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[26.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[27.073s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[27.094s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[28.170s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[28.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[28.178s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[28.189s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[28.503s] -- Found PythonExtra: .so  
+[31.261s] -- Configuring done
+[34.113s] -- Generating done
+[34.310s] -- Build files have been written to: /home/rosdev/ros2_ws/build/scara_description
+[34.440s] Invoked command in '/home/rosdev/ros2_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/scara_project/scara_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/scara_description
+[34.450s] Invoking command in '/home/rosdev/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_description -- -j12 -l12
+[43.341s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[43.351s] [  2%] Built target scara_description__rs
+[43.351s] [  2%] Built target ament_cmake_python_symlink_scara_description
+[43.352s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[46.112s] [  5%] Built target scara_description__cpp
+[51.228s] running egg_info
+[51.235s] creating scara_description.egg-info
+[51.235s] writing scara_description.egg-info/PKG-INFO
+[51.235s] writing dependency_links to scara_description.egg-info/dependency_links.txt
+[51.235s] writing top-level names to scara_description.egg-info/top_level.txt
+[51.235s] writing manifest file 'scara_description.egg-info/SOURCES.txt'
+[51.267s] reading manifest file 'scara_description.egg-info/SOURCES.txt'
+[51.271s] writing manifest file 'scara_description.egg-info/SOURCES.txt'
+[51.677s] [  5%] Built target ament_cmake_python_build_scara_description_egg
+[51.790s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[55.184s] [ 10%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scara_description/srv/set_joint_config__type_support.cpp.o[0m
+[60.261s] [ 12%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scara_description/srv/get_end_effector_pose__type_support.cpp.o[0m
+[66.840s] [ 15%] [32m[1mLinking CXX shared library libscara_description__rosidl_typesupport_cpp.so[0m
+[68.109s] [ 15%] Built target scara_description__rosidl_typesupport_cpp
+[68.627s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[74.498s] [ 20%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scara_description/srv/detail/set_joint_config__type_support.cpp.o[0m
+[83.099s] [ 22%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scara_description/srv/detail/get_end_effector_pose__type_support.cpp.o[0m
+[87.689s] [ 25%] [32m[1mLinking CXX shared library libscara_description__rosidl_typesupport_introspection_cpp.so[0m
+[88.409s] [ 25%] Built target scara_description__rosidl_typesupport_introspection_cpp
+[88.566s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[91.506s] [ 30%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scara_description/srv/detail/dds_fastrtps/set_joint_config__type_support.cpp.o[0m
+[94.864s] [ 32%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scara_description/srv/detail/dds_fastrtps/get_end_effector_pose__type_support.cpp.o[0m
+[97.876s] [ 35%] [32m[1mLinking CXX shared library libscara_description__rosidl_typesupport_fastrtps_cpp.so[0m
+[98.463s] [ 35%] Built target scara_description__rosidl_typesupport_fastrtps_cpp
+[98.556s] [ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[101.649s] [ 40%] [32mBuilding C object CMakeFiles/scara_description__rosidl_generator_c.dir/rosidl_generator_c/scara_description/srv/detail/set_joint_config__functions.c.o[0m
+[102.179s] [ 42%] [32mBuilding C object CMakeFiles/scara_description__rosidl_generator_c.dir/rosidl_generator_c/scara_description/srv/detail/get_end_effector_pose__functions.c.o[0m
+[102.593s] [ 45%] [32m[1mLinking C shared library libscara_description__rosidl_generator_c.so[0m
+[102.822s] [ 45%] Built target scara_description__rosidl_generator_c
+[102.907s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[105.454s] [ 50%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scara_description/srv/detail/set_joint_config__type_support_c.cpp.o[0m
+[107.517s] [ 52%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scara_description/srv/detail/get_end_effector_pose__type_support_c.cpp.o[0m
+[109.945s] [ 55%] [32m[1mLinking CXX shared library libscara_description__rosidl_typesupport_fastrtps_c.so[0m
+[110.412s] [ 55%] Built target scara_description__rosidl_typesupport_fastrtps_c
+[110.509s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[112.113s] [ 60%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/scara_description/srv/set_joint_config__type_support.cpp.o[0m
+[112.299s] [ 62%] [32mBuilding CXX object CMakeFiles/scara_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/scara_description/srv/get_end_effector_pose__type_support.cpp.o[0m
+[112.483s] [ 65%] [32m[1mLinking CXX shared library libscara_description__rosidl_typesupport_c.so[0m
+[112.782s] [ 65%] Built target scara_description__rosidl_typesupport_c
+[112.872s] [ 67%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[114.872s] [ 70%] [32mBuilding C object CMakeFiles/scara_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scara_description/srv/detail/set_joint_config__type_support.c.o[0m
+[115.164s] [ 72%] [32mBuilding C object CMakeFiles/scara_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scara_description/srv/detail/get_end_effector_pose__type_support.c.o[0m
+[115.413s] [ 75%] [32m[1mLinking C shared library libscara_description__rosidl_typesupport_introspection_c.so[0m
+[115.702s] [ 75%] Built target scara_description__rosidl_typesupport_introspection_c
+[115.926s] [ 75%] Built target scara_description
+[116.111s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[119.725s] [ 77%] Built target scara_description__py
+[119.859s] [ 80%] [32mBuilding C object CMakeFiles/scara_description__rosidl_generator_py.dir/rosidl_generator_py/scara_description/srv/_set_joint_config_s.c.o[0m
+[120.933s] [ 82%] [32mBuilding C object CMakeFiles/scara_description__rosidl_generator_py.dir/rosidl_generator_py/scara_description/srv/_get_end_effector_pose_s.c.o[0m
+[121.637s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/scara_description/libscara_description__rosidl_generator_py.so[0m
+[121.903s] [ 85%] Built target scara_description__rosidl_generator_py
+[122.025s] [ 87%] [32mBuilding C object CMakeFiles/scara_description__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scara_description/_scara_description_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[122.613s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/scara_description/scara_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[122.850s] [ 90%] Built target scara_description__rosidl_typesupport_fastrtps_c__pyext
+[122.975s] [ 92%] [32mBuilding C object CMakeFiles/scara_description__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scara_description/_scara_description_s.ep.rosidl_typesupport_c.c.o[0m
+[123.540s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/scara_description/scara_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[123.853s] [ 95%] Built target scara_description__rosidl_typesupport_c__pyext
+[123.988s] [ 97%] [32mBuilding C object CMakeFiles/scara_description__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scara_description/_scara_description_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[124.506s] [100%] [32m[1mLinking C shared library rosidl_generator_py/scara_description/scara_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[124.725s] [100%] Built target scara_description__rosidl_typesupport_introspection_c__pyext
+[124.797s] Invoked command in '/home/rosdev/ros2_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/scara_description -- -j12 -l12
+[124.835s] Invoking command in '/home/rosdev/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_description
+[124.849s] -- Install configuration: ""
+[124.852s] -- Execute custom install script
+[124.862s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/ament_index/resource_index/rosidl_interfaces/scara_description
+[124.905s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/msg/rosidl_generator_c__visibility_control.h
+[124.951s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__functions.h
+[124.998s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__struct.h
+[125.041s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__type_support.h
+[125.100s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__functions.h
+[125.132s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__struct.h
+[125.183s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__type_support.h
+[125.227s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/get_end_effector_pose.h
+[125.282s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/set_joint_config.h
+[125.331s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/environment/library_path.sh
+[125.374s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/environment/library_path.dsv
+[125.417s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[125.469s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__rosidl_typesupport_fastrtps_c.h
+[125.513s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__rosidl_typesupport_fastrtps_c.h
+[125.550s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/msg/rosidl_generator_cpp__visibility_control.hpp
+[125.583s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__builder.hpp
+[125.635s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__struct.hpp
+[125.692s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__traits.hpp
+[125.748s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__type_support.hpp
+[125.794s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__builder.hpp
+[125.835s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__struct.hpp
+[125.889s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__traits.hpp
+[125.951s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__type_support.hpp
+[125.988s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/get_end_effector_pose.hpp
+[126.042s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/set_joint_config.hpp
+[126.103s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[126.136s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[126.187s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__rosidl_typesupport_fastrtps_cpp.hpp
+[126.241s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[126.297s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__rosidl_typesupport_introspection_c.h
+[126.361s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__rosidl_typesupport_introspection_c.h
+[126.417s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/get_end_effector_pose__rosidl_typesupport_introspection_cpp.hpp
+[126.466s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/include/scara_description/scara_description/srv/detail/set_joint_config__rosidl_typesupport_introspection_cpp.hpp
+[126.524s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/environment/pythonpath.sh
+[126.617s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/environment/pythonpath.dsv
+[126.663s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description-0.0.1-py3.10.egg-info/PKG-INFO
+[126.724s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description-0.0.1-py3.10.egg-info/SOURCES.txt
+[126.783s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description-0.0.1-py3.10.egg-info/dependency_links.txt
+[126.828s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description-0.0.1-py3.10.egg-info/top_level.txt
+[126.892s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/__init__.py
+[126.962s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/_scara_description_s.ep.rosidl_typesupport_c.c
+[127.001s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/_scara_description_s.ep.rosidl_typesupport_fastrtps_c.c
+[127.052s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/_scara_description_s.ep.rosidl_typesupport_introspection_c.c
+[127.101s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/libscara_description__rosidl_generator_py.so
+[127.167s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/scara_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[127.198s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/scara_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[127.239s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/scara_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[127.286s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/srv/__init__.py
+[127.347s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/srv/_get_end_effector_pose.py
+[127.388s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/srv/_get_end_effector_pose_s.c
+[127.472s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/srv/_set_joint_config.py
+[127.545s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/srv/_set_joint_config_s.c
+[127.613s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/scara_description_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[127.615s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/scara_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[127.618s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages/scara_description/scara_description_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[127.633s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/rust/Cargo.toml
+[127.690s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/rust/build.rs
+[127.760s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/rust/src/lib.rs
+[127.793s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/rust/src/srv.rs
+[127.835s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/rust/src/srv/rmw.rs
+[127.918s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/SetJointConfig.idl
+[127.958s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/GetEndEffectorPose.idl
+[128.061s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/SetJointConfig.srv
+[128.157s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/SetJointConfig_Request.msg
+[128.288s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/SetJointConfig_Response.msg
+[128.402s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/GetEndEffectorPose.srv
+[128.525s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/GetEndEffectorPose_Request.msg
+[128.610s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/srv/GetEndEffectorPose_Response.msg
+[128.955s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/urdf/scara.urdf.xacro
+[129.132s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/urdf/scara_body.urdf.xacro
+[129.297s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/launch/rviz.launch.py
+[129.430s] -- Symlinking: /home/rosdev/ros2_ws/install/scara_description/share/scara_description/rviz/visualize_robot.rviz
+[129.511s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[129.512s]   ament_cmake_symlink_install_directory() can't find
+[129.513s]   '/home/rosdev/ros2_ws/src/scara_project/scara_description/meshes'
+[129.513s] Call Stack (most recent call first):
+[129.514s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:394 (ament_cmake_symlink_install_directory)
+[129.514s]   cmake_install.cmake:46 (include)
+[129.514s] 
+[129.514s] [0m
+[129.548s] Invoked command in '/home/rosdev/ros2_ws/build/scara_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/scara_description

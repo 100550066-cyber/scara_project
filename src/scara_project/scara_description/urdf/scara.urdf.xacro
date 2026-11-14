@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="scara_body">
+
+  <xacro:include filename="$(find scara_description)/urdf/scara_body.urdf.xacro"/>
+
+  <xacro:arg name="ros2_control" default="false" />
+  <xacro:arg name="gripper" default="false"/>
+
+  <link name="world"/>
+
+  <xacro:scara_body parent_link="world" xyz="0 0 0" rpy="0 0 0" />
+
+</robot>

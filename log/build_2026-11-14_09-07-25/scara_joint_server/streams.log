@@ -1,0 +1,23 @@
+[25.138s] Invoking command in '/home/rosdev/ros2_ws/build/scara_joint_server': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_joint_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/scara_joint_server/build --no-deps symlink_data
+[34.279s] running develop
+[35.726s] running egg_info
+[35.726s] creating scara_joint_server.egg-info
+[35.732s] writing scara_joint_server.egg-info/PKG-INFO
+[35.738s] writing dependency_links to scara_joint_server.egg-info/dependency_links.txt
+[35.738s] writing entry points to scara_joint_server.egg-info/entry_points.txt
+[35.738s] writing requirements to scara_joint_server.egg-info/requires.txt
+[35.739s] writing top-level names to scara_joint_server.egg-info/top_level.txt
+[35.748s] writing manifest file 'scara_joint_server.egg-info/SOURCES.txt'
+[36.120s] reading manifest file 'scara_joint_server.egg-info/SOURCES.txt'
+[36.445s] writing manifest file 'scara_joint_server.egg-info/SOURCES.txt'
+[36.541s] running build_ext
+[36.541s] Creating /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara-joint-server.egg-link (link to .)
+[36.572s] 
+[36.572s] Installed /home/rosdev/ros2_ws/build/scara_joint_server
+[36.581s] running symlink_data
+[36.581s] creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index
+[36.582s] creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index
+[36.582s] creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages
+[36.684s] symbolically linking /home/rosdev/ros2_ws/build/scara_joint_server/resource/scara_joint_server -> /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages
+[36.736s] symbolically linking /home/rosdev/ros2_ws/build/scara_joint_server/package.xml -> /home/rosdev/ros2_ws/install/scara_joint_server/share/scara_joint_server
+[43.333s] Invoked command in '/home/rosdev/ros2_ws/build/scara_joint_server' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_joint_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/scara_joint_server/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/build/scara_description/rosidl_typesupport_introspection_c/scara_description/msg/rosidl_typesupport_introspection_c__visibility_control.h

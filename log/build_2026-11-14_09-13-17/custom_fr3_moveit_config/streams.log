@@ -1,0 +1,36 @@
+[1.974s] Invoking command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/custom_fr3_moveit_config -- -j12 -l12
+[7.219s] Invoked command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/custom_fr3_moveit_config -- -j12 -l12
+[7.220s] Invoking command in '/home/rosdev/ros2_ws/build/custom_fr3_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/custom_fr3_moveit_config
+[7.337s] -- Install configuration: ""
+[7.345s] -- Execute custom install script
+[7.349s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/ament_index/resource_index/package_run_dependencies/custom_fr3_moveit_config
+[7.350s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/ament_index/resource_index/parent_prefix_path/custom_fr3_moveit_config
+[7.351s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/ament_prefix_path.sh
+[7.351s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/ament_prefix_path.dsv
+[7.352s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/path.sh
+[7.352s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/environment/path.dsv
+[7.352s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.bash
+[7.352s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.sh
+[7.352s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.zsh
+[7.353s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/local_setup.dsv
+[7.353s] -- Symlinking: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/package.dsv
+[7.353s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/ament_index/resource_index/packages/custom_fr3_moveit_config
+[7.354s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/cmake/custom_fr3_moveit_configConfig.cmake
+[7.357s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/cmake/custom_fr3_moveit_configConfig-version.cmake
+[7.410s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/package.xml
+[7.589s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/launch/cartesian_controller.launch.py
+[7.687s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/launch/demo.launch.py
+[8.358s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/chomp_planning.yaml
+[8.434s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3.srdf
+[8.537s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3.srdf.xacro
+[8.824s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3.urdf.xacro
+[8.996s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3_controllers.yaml
+[9.065s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/fr3_ros_controllers.yaml
+[9.160s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/initial_positions.yaml
+[9.293s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/joint_limits.yaml
+[9.381s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/kinematics.yaml
+[9.465s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/ompl_planning.yaml
+[9.577s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/pilz_cartesian_limits.yaml
+[9.679s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[9.915s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/rviz/moveit_empty.rviz
+[10.026s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/custom_fr3_moveit_config/share/custom_fr3_moveit_config/rviz/visualize_robot.rviz

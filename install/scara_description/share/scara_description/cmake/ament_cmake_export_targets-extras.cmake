@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/build/scara_description/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

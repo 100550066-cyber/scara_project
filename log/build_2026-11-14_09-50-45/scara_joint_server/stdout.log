@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/scara_joint_server/scara_joint_server.egg-info
+writing ../../../build/scara_joint_server/scara_joint_server.egg-info/PKG-INFO
+writing dependency_links to ../../../build/scara_joint_server/scara_joint_server.egg-info/dependency_links.txt
+writing entry points to ../../../build/scara_joint_server/scara_joint_server.egg-info/entry_points.txt
+writing requirements to ../../../build/scara_joint_server/scara_joint_server.egg-info/requires.txt
+writing top-level names to ../../../build/scara_joint_server/scara_joint_server.egg-info/top_level.txt
+writing manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'
+reading manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'
+writing manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rosdev/ros2_ws/build/scara_joint_server/build
+creating /home/rosdev/ros2_ws/build/scara_joint_server/build/lib
+creating /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server
+copying scara_joint_server/joint_config_server.py -> /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server
+copying scara_joint_server/__init__.py -> /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server
+running install
+running install_lib
+creating /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server
+copying /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server/__init__.py -> /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server
+copying /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server/joint_config_server.py -> /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server
+byte-compiling /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server/joint_config_server.py to joint_config_server.cpython-310.pyc
+running install_data
+creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index
+creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index
+creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages
+copying resource/scara_joint_server -> /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages
+copying package.xml -> /home/rosdev/ros2_ws/install/scara_joint_server/share/scara_joint_server
+running install_egg_info
+Copying ../../../build/scara_joint_server/scara_joint_server.egg-info to /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joint_config_server script to /home/rosdev/ros2_ws/install/scara_joint_server/lib/scara_joint_server
+writing list of installed files to '/home/rosdev/ros2_ws/build/scara_joint_server/install.log'

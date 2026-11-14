@@ -1,0 +1,37 @@
+[4.646s] Invoking command in '/home/rosdev/ros2_ws/src/scara_project/scara_joint_server': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_joint_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scara_joint_server build --build-base /home/rosdev/ros2_ws/build/scara_joint_server/build install --record /home/rosdev/ros2_ws/build/scara_joint_server/install.log --install-scripts $base/lib/scara_joint_server --single-version-externally-managed install_data
+[6.457s] running egg_info
+[6.460s] creating ../../../build/scara_joint_server/scara_joint_server.egg-info
+[6.461s] writing ../../../build/scara_joint_server/scara_joint_server.egg-info/PKG-INFO
+[6.462s] writing dependency_links to ../../../build/scara_joint_server/scara_joint_server.egg-info/dependency_links.txt
+[6.463s] writing entry points to ../../../build/scara_joint_server/scara_joint_server.egg-info/entry_points.txt
+[6.466s] writing requirements to ../../../build/scara_joint_server/scara_joint_server.egg-info/requires.txt
+[6.469s] writing top-level names to ../../../build/scara_joint_server/scara_joint_server.egg-info/top_level.txt
+[6.469s] writing manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'
+[6.665s] reading manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'
+[6.751s] writing manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'
+[6.752s] running build
+[6.752s] running build_py
+[6.767s] creating /home/rosdev/ros2_ws/build/scara_joint_server/build
+[6.770s] creating /home/rosdev/ros2_ws/build/scara_joint_server/build/lib
+[6.773s] creating /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server
+[6.787s] copying scara_joint_server/joint_config_server.py -> /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server
+[6.822s] copying scara_joint_server/__init__.py -> /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server
+[6.860s] running install
+[6.863s] running install_lib
+[6.872s] creating /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server
+[6.872s] copying /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server/__init__.py -> /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server
+[6.872s] copying /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server/joint_config_server.py -> /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server
+[6.874s] byte-compiling /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server/__init__.py to __init__.cpython-310.pyc
+[6.877s] byte-compiling /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server/joint_config_server.py to joint_config_server.cpython-310.pyc
+[6.883s] running install_data
+[6.884s] creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index
+[6.885s] creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index
+[6.886s] creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages
+[6.899s] copying resource/scara_joint_server -> /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages
+[6.924s] copying package.xml -> /home/rosdev/ros2_ws/install/scara_joint_server/share/scara_joint_server
+[6.937s] running install_egg_info
+[6.946s] Copying ../../../build/scara_joint_server/scara_joint_server.egg-info to /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server-0.0.0-py3.10.egg-info
+[6.960s] running install_scripts
+[7.097s] Installing joint_config_server script to /home/rosdev/ros2_ws/install/scara_joint_server/lib/scara_joint_server
+[7.103s] writing list of installed files to '/home/rosdev/ros2_ws/build/scara_joint_server/install.log'
+[7.212s] Invoked command in '/home/rosdev/ros2_ws/src/scara_project/scara_joint_server' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_joint_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/scara_joint_server build --build-base /home/rosdev/ros2_ws/build/scara_joint_server/build install --record /home/rosdev/ros2_ws/build/scara_joint_server/install.log --install-scripts $base/lib/scara_joint_server --single-version-externally-managed install_data

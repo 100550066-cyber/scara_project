@@ -1,0 +1,57 @@
+[2.314s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cartesian_controller_utilities
+[6.947s] -- The C compiler identification is GNU 11.4.0
+[6.953s] -- The CXX compiler identification is GNU 11.4.0
+[6.953s] -- Detecting C compiler ABI info
+[6.954s] -- Detecting C compiler ABI info - done
+[6.954s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.954s] -- Detecting C compile features
+[6.954s] -- Detecting C compile features - done
+[6.954s] -- Detecting CXX compiler ABI info
+[6.955s] -- Detecting CXX compiler ABI info - done
+[6.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.957s] -- Detecting CXX compile features
+[6.957s] -- Detecting CXX compile features - done
+[6.968s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.968s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.971s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.972s] -- Found rclpy: 3.3.22 (/opt/ros/humble/share/rclpy/cmake)
+[6.972s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.008s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.074s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.075s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.628s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.679s] -- Configuring done
+[8.728s] -- Generating done
+[8.757s] -- Build files have been written to: /home/rosdev/ros2_ws/build/cartesian_controller_utilities
+[9.579s] Invoked command in '/home/rosdev/ros2_ws/build/cartesian_controller_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake /home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_controller_utilities -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosdev/ros2_ws/install/cartesian_controller_utilities
+[9.590s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cartesian_controller_utilities -- -j12 -l12
+[9.903s] Invoked command in '/home/rosdev/ros2_ws/build/cartesian_controller_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cartesian_controller_utilities -- -j12 -l12
+[9.994s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_utilities': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cartesian_controller_utilities
+[10.085s] -- Install configuration: ""
+[10.098s] -- Execute custom install script
+[10.140s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/lib/cartesian_controller_utilities/buttons.py
+[10.263s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/lib/cartesian_controller_utilities/converter.py
+[10.378s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/lib/cartesian_controller_utilities/pose.py
+[10.669s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/etc/button_cmds.yaml
+[11.042s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav.launch.py
+[11.158s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav_buttons.launch.py
+[11.210s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav_to_pose.launch.py
+[11.337s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/launch/spacenav_to_wrench.launch.py
+[11.565s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_utilities
+[11.767s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_utilities
+[11.854s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/ament_prefix_path.sh
+[11.919s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/ament_prefix_path.dsv
+[12.128s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/path.sh
+[12.278s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/environment/path.dsv
+[12.387s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.bash
+[12.608s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.sh
+[12.748s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.zsh
+[12.880s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/local_setup.dsv
+[13.006s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/package.dsv
+[13.204s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/ament_index/resource_index/packages/cartesian_controller_utilities
+[13.331s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/cmake/cartesian_controller_utilitiesConfig.cmake
+[13.430s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/cmake/cartesian_controller_utilitiesConfig-version.cmake
+[13.569s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_utilities/share/cartesian_controller_utilities/package.xml
+[13.766s] Invoked command in '/home/rosdev/ros2_ws/build/cartesian_controller_utilities' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cartesian_controller_utilities

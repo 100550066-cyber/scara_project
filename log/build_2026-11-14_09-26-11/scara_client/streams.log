@@ -1,0 +1,16 @@
+[9.666s] Invoking command in '/home/rosdev/ros2_ws/build/scara_client': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/scara_client/build --no-deps symlink_data
+[11.720s] running develop
+[12.465s] running egg_info
+[12.465s] writing scara_client.egg-info/PKG-INFO
+[12.466s] writing dependency_links to scara_client.egg-info/dependency_links.txt
+[12.466s] writing entry points to scara_client.egg-info/entry_points.txt
+[12.466s] writing requirements to scara_client.egg-info/requires.txt
+[12.470s] writing top-level names to scara_client.egg-info/top_level.txt
+[12.757s] reading manifest file 'scara_client.egg-info/SOURCES.txt'
+[13.199s] writing manifest file 'scara_client.egg-info/SOURCES.txt'
+[13.225s] running build_ext
+[13.226s] Creating /home/rosdev/ros2_ws/install/scara_client/lib/python3.10/site-packages/scara-client.egg-link (link to .)
+[13.229s] 
+[13.229s] Installed /home/rosdev/ros2_ws/build/scara_client
+[13.230s] running symlink_data
+[13.512s] Invoked command in '/home/rosdev/ros2_ws/build/scara_client' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/scara_client/build --no-deps symlink_data

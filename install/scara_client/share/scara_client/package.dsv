@@ -1,0 +1,9 @@
+source;share/scara_client/hook/pythonpath.ps1
+source;share/scara_client/hook/pythonpath.dsv
+source;share/scara_client/hook/pythonpath.sh
+source;share/scara_client/hook/ament_prefix_path.ps1
+source;share/scara_client/hook/ament_prefix_path.dsv
+source;share/scara_client/hook/ament_prefix_path.sh
+source;../../build/scara_client/share/scara_client/hook/pythonpath_develop.ps1
+source;../../build/scara_client/share/scara_client/hook/pythonpath_develop.dsv
+source;../../build/scara_client/share/scara_client/hook/pythonpath_develop.sh

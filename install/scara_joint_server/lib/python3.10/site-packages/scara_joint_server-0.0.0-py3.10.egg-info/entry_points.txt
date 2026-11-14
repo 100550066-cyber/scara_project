@@ -1,0 +1,3 @@
+[console_scripts]
+joint_config_server = scara_joint_server.joint_config_server:main
+

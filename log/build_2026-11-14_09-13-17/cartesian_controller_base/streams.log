@@ -1,0 +1,44 @@
+[0.466s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cartesian_controller_base -- -j12 -l12
+[7.248s] [35m[1mConsolidate compiler generated dependencies of target cartesian_controller_base[0m
+[7.250s] [35m[1mConsolidate compiler generated dependencies of target ik_solvers[0m
+[7.250s] [ 45%] Built target cartesian_controller_base
+[7.251s] [100%] Built target ik_solvers
+[7.351s] Invoked command in '/home/rosdev/ros2_ws/build/cartesian_controller_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/cartesian_controller_base -- -j12 -l12
+[7.365s] Invoking command in '/home/rosdev/ros2_ws/build/cartesian_controller_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/cartesian_controller_base
+[7.463s] -- Install configuration: "Release"
+[7.466s] -- Execute custom install script
+[7.467s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base//ik_solver_plugin.xml
+[8.182s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/DampedLeastSquaresSolver.h
+[8.292s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/ForwardDynamicsSolver.h
+[8.368s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/IKSolver.h
+[8.491s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/JacobianTransposeSolver.h
+[8.553s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/PDController.h
+[8.625s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/ROS2VersionConfig.h.in
+[8.705s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/SelectivelyDampedLeastSquaresSolver.h
+[8.953s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/SpatialPDController.h
+[9.087s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/Utility.h
+[9.166s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/cartesian_controller_base.h
+[9.228s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/lib/libcartesian_controller_base.so
+[9.266s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/lib/libik_solvers.so
+[9.352s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/include/cartesian_controller_base/ROS2VersionConfig.h
+[9.430s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/environment/library_path.sh
+[9.521s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/environment/library_path.dsv
+[9.603s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/ament_index/resource_index/package_run_dependencies/cartesian_controller_base
+[9.655s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/ament_index/resource_index/parent_prefix_path/cartesian_controller_base
+[9.698s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/environment/ament_prefix_path.sh
+[9.758s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/environment/ament_prefix_path.dsv
+[9.786s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/environment/path.sh
+[9.827s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/environment/path.dsv
+[9.874s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.bash
+[9.917s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.sh
+[9.953s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.zsh
+[9.985s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/local_setup.dsv
+[10.052s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/package.dsv
+[10.078s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/ament_index/resource_index/packages/cartesian_controller_base
+[10.108s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/ament_index/resource_index/cartesian_controller_base__pluginlib__plugin/cartesian_controller_base
+[10.181s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.233s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.286s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/cmake/ament_cmake_export_libraries-extras.cmake
+[10.357s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/cmake/cartesian_controller_baseConfig.cmake
+[10.446s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/cmake/cartesian_controller_baseConfig-version.cmake
+[10.553s] -- Symlinking: /home/rosdev/ros2_ws/install/cartesian_controller_base/share/cartesian_controller_base/package.xml

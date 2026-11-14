@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.005672] (-) JobUnselected: {'identifier': 'actions_pkg'}
+[0.005894] (-) JobUnselected: {'identifier': 'cartesian_compliance_controller'}
+[0.006608] (-) JobUnselected: {'identifier': 'cartesian_controller_base'}
+[0.006876] (-) JobUnselected: {'identifier': 'cartesian_controller_handles'}
+[0.007023] (-) JobUnselected: {'identifier': 'cartesian_controller_simulation'}
+[0.007074] (-) JobUnselected: {'identifier': 'cartesian_controller_tests'}
+[0.011035] (-) JobUnselected: {'identifier': 'cartesian_controller_utilities'}
+[0.011336] (-) JobUnselected: {'identifier': 'cartesian_force_controller'}
+[0.011404] (-) JobUnselected: {'identifier': 'cartesian_motion_controller'}
+[0.011520] (-) JobUnselected: {'identifier': 'custom_fr3_moveit_config'}
+[0.011618] (-) JobUnselected: {'identifier': 'custom_msgs'}
+[0.011719] (-) JobUnselected: {'identifier': 'franka_description'}
+[0.011915] (-) JobUnselected: {'identifier': 'moveit_tests_pkg'}
+[0.011994] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.012060] (-) JobUnselected: {'identifier': 'my_robot_moveit_config'}
+[0.012153] (-) JobUnselected: {'identifier': 'python_scripts_pkg'}
+[0.012218] (-) JobUnselected: {'identifier': 'scara_client'}
+[0.012383] (-) JobUnselected: {'identifier': 'scara_description'}
+[0.012464] (-) JobUnselected: {'identifier': 'scara_pose_server'}
+[0.012577] (-) JobUnselected: {'identifier': 'services_pkg'}
+[0.012690] (-) JobUnselected: {'identifier': 'tf2_demo'}
+[0.012738] (-) JobUnselected: {'identifier': 'topics_pkg'}
+[0.012786] (scara_joint_server) JobQueued: {'identifier': 'scara_joint_server', 'dependencies': OrderedDict()}
+[0.013046] (scara_joint_server) JobStarted: {'identifier': 'scara_joint_server'}
+[0.099859] (-) TimerEvent: {}
+[0.200746] (-) TimerEvent: {}
+[0.301737] (-) TimerEvent: {}
+[0.402595] (-) TimerEvent: {}
+[0.504034] (-) TimerEvent: {}
+[0.604918] (-) TimerEvent: {}
+[0.705716] (-) TimerEvent: {}
+[0.806729] (-) TimerEvent: {}
+[0.909580] (-) TimerEvent: {}
+[1.012282] (-) TimerEvent: {}
+[1.116896] (-) TimerEvent: {}
+[1.221360] (-) TimerEvent: {}
+[1.322664] (-) TimerEvent: {}
+[1.423585] (-) TimerEvent: {}
+[1.524484] (-) TimerEvent: {}
+[1.625462] (-) TimerEvent: {}
+[1.726457] (-) TimerEvent: {}
+[1.830230] (-) TimerEvent: {}
+[1.932951] (-) TimerEvent: {}
+[2.033750] (-) TimerEvent: {}
+[2.138101] (-) TimerEvent: {}
+[2.240033] (-) TimerEvent: {}
+[2.340875] (-) TimerEvent: {}
+[2.442094] (-) TimerEvent: {}
+[2.546058] (-) TimerEvent: {}
+[2.647309] (-) TimerEvent: {}
+[2.748863] (-) TimerEvent: {}
+[2.849758] (-) TimerEvent: {}
+[2.951124] (-) TimerEvent: {}
+[3.052626] (-) TimerEvent: {}
+[3.153426] (-) TimerEvent: {}
+[3.258360] (-) TimerEvent: {}
+[3.359635] (-) TimerEvent: {}
+[3.460470] (-) TimerEvent: {}
+[3.561876] (-) TimerEvent: {}
+[3.665274] (-) TimerEvent: {}
+[3.766280] (-) TimerEvent: {}
+[3.870419] (-) TimerEvent: {}
+[3.971858] (-) TimerEvent: {}
+[4.072942] (-) TimerEvent: {}
+[4.173732] (-) TimerEvent: {}
+[4.262614] (scara_joint_server) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/scara_joint_server', 'build', '--build-base', '/home/rosdev/ros2_ws/build/scara_joint_server/build', 'install', '--record', '/home/rosdev/ros2_ws/build/scara_joint_server/install.log', '--install-scripts', '$base/lib/scara_joint_server', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rosdev/ros2_ws/src/scara_project/scara_joint_server', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosdev/ros2_ws/install/scara_description/lib:/home/rosdev/ros2_ws/install/custom_msgs/lib:/home/rosdev/ros2_ws/install/cartesian_compliance_controller/lib:/home/rosdev/ros2_ws/install/cartesian_motion_controller/lib:/home/rosdev/ros2_ws/install/cartesian_force_controller/lib:/home/rosdev/ros2_ws/install/cartesian_controller_handles/lib:/home/rosdev/ros2_ws/install/cartesian_controller_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/helpers/browser.sh'), ('HOME', '/home/rosdev'), ('OLDPWD', '/home/rosdev/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-e831a3c9-8982-4f69-83a4-27a8222be49b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-fc48fe7a-c806-42cb-8e72-a4ee99f3ee30.sock'), ('COLCON_PREFIX_PATH', '/home/rosdev/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-abb5dee1-aab9-4575-b342-b688b488a809.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/rosdev/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/vscode/vscode-server/bin/linux-x64/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/copilot-shim'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/home/rosdev/.gnupg/S.gpg-agent"]'), ('DISPLAY', 'host.docker.internal:0.0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/rosdev/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-921f2025505f4508.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/rosdev/.vscode-server/data/User/workspaceStorage/ab325456f164974fe67ca4f9360e675e/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-15727d6b8a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_description:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/scara_project:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/my_robot_moveit_config:/home/rosdev/ros2_ws/install/my_robot_description:/home/rosdev/ros2_ws/install/moveit_tests_pkg:/home/rosdev/ros2_ws/install/franka_description:/home/rosdev/ros2_ws/install/custom_msgs:/home/rosdev/ros2_ws/install/custom_fr3_moveit_config:/home/rosdev/ros2_ws/install/cartesian_compliance_controller:/home/rosdev/ros2_ws/install/cartesian_motion_controller:/home/rosdev/ros2_ws/install/cartesian_force_controller:/home/rosdev/ros2_ws/install/cartesian_controller_utilities:/home/rosdev/ros2_ws/install/cartesian_controller_handles:/home/rosdev/ros2_ws/install/cartesian_controller_base:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosdev/ros2_ws/build/scara_joint_server'), ('LC_ALL', 'C.UTF-8'), ('COPILOT_DEBUG_NONCE', '2181ff6c94056fb90fb9cbaa6833a978'), ('PYTHONPATH', '/home/rosdev/ros2_ws/build/scara_joint_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/scara_pose_server:/home/rosdev/ros2_ws/install/scara_pose_server/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/scara_joint_server:/home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/scara_description/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/build/scara_client:/home/rosdev/ros2_ws/install/scara_client/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/topics_pkg:/home/rosdev/ros2_ws/install/topics_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/tf2_demo:/home/rosdev/ros2_ws/install/tf2_demo/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/services_pkg:/home/rosdev/ros2_ws/install/services_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/build/python_scripts_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg/lib/python3.10/site-packages:/home/rosdev/ros2_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/home/rosdev/ros2_ws/build/actions_pkg:/home/rosdev/ros2_ws/install/actions_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosdev/ros2_ws/install/scara_description:/home/rosdev/ros2_ws/install/scara_project:/home/rosdev/ros2_ws/install/my_robot_moveit_config:/home/rosdev/ros2_ws/install/my_robot_description:/home/rosdev/ros2_ws/install/moveit_tests_pkg:/home/rosdev/ros2_ws/install/franka_description:/home/rosdev/ros2_ws/install/custom_msgs:/home/rosdev/ros2_ws/install/custom_fr3_moveit_config:/home/rosdev/ros2_ws/install/cartesian_compliance_controller:/home/rosdev/ros2_ws/install/cartesian_motion_controller:/home/rosdev/ros2_ws/install/cartesian_force_controller:/home/rosdev/ros2_ws/install/cartesian_controller_utilities:/home/rosdev/ros2_ws/install/cartesian_controller_handles:/home/rosdev/ros2_ws/install/cartesian_controller_base')]), 'shell': False}
+[4.274134] (-) TimerEvent: {}
+[4.385712] (-) TimerEvent: {}
+[4.487550] (-) TimerEvent: {}
+[4.588531] (-) TimerEvent: {}
+[4.689484] (-) TimerEvent: {}
+[4.790326] (-) TimerEvent: {}
+[4.894050] (-) TimerEvent: {}
+[4.995621] (-) TimerEvent: {}
+[5.096402] (-) TimerEvent: {}
+[5.199058] (-) TimerEvent: {}
+[5.302277] (-) TimerEvent: {}
+[5.407037] (-) TimerEvent: {}
+[5.513089] (-) TimerEvent: {}
+[5.614580] (-) TimerEvent: {}
+[5.716476] (-) TimerEvent: {}
+[5.819656] (-) TimerEvent: {}
+[5.920574] (-) TimerEvent: {}
+[5.990130] (scara_joint_server) StdoutLine: {'line': b'running egg_info\n'}
+[5.994264] (scara_joint_server) StdoutLine: {'line': b'creating ../../../build/scara_joint_server/scara_joint_server.egg-info\n'}
+[5.994852] (scara_joint_server) StdoutLine: {'line': b'writing ../../../build/scara_joint_server/scara_joint_server.egg-info/PKG-INFO\n'}
+[5.996122] (scara_joint_server) StdoutLine: {'line': b'writing dependency_links to ../../../build/scara_joint_server/scara_joint_server.egg-info/dependency_links.txt\n'}
+[5.996829] (scara_joint_server) StdoutLine: {'line': b'writing entry points to ../../../build/scara_joint_server/scara_joint_server.egg-info/entry_points.txt\n'}
+[5.997285] (scara_joint_server) StdoutLine: {'line': b'writing requirements to ../../../build/scara_joint_server/scara_joint_server.egg-info/requires.txt\n'}
+[5.998856] (scara_joint_server) StdoutLine: {'line': b'writing top-level names to ../../../build/scara_joint_server/scara_joint_server.egg-info/top_level.txt\n'}
+[6.002098] (scara_joint_server) StdoutLine: {'line': b"writing manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'\n"}
+[6.020844] (-) TimerEvent: {}
+[6.121650] (-) TimerEvent: {}
+[6.222469] (-) TimerEvent: {}
+[6.294839] (scara_joint_server) StdoutLine: {'line': b"reading manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'\n"}
+[6.325459] (-) TimerEvent: {}
+[6.408831] (scara_joint_server) StdoutLine: {'line': b"writing manifest file '../../../build/scara_joint_server/scara_joint_server.egg-info/SOURCES.txt'\n"}
+[6.410155] (scara_joint_server) StdoutLine: {'line': b'running build\n'}
+[6.410584] (scara_joint_server) StdoutLine: {'line': b'running build_py\n'}
+[6.421643] (scara_joint_server) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/build/scara_joint_server/build\n'}
+[6.422579] (scara_joint_server) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/build/scara_joint_server/build/lib\n'}
+[6.423214] (scara_joint_server) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server\n'}
+[6.425752] (-) TimerEvent: {}
+[6.444301] (scara_joint_server) StdoutLine: {'line': b'copying scara_joint_server/joint_config_server.py -> /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server\n'}
+[6.496932] (scara_joint_server) StdoutLine: {'line': b'copying scara_joint_server/__init__.py -> /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server\n'}
+[6.526958] (-) TimerEvent: {}
+[6.530189] (scara_joint_server) StdoutLine: {'line': b'running install\n'}
+[6.530887] (scara_joint_server) StdoutLine: {'line': b'running install_lib\n'}
+[6.534758] (scara_joint_server) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server\n'}
+[6.536027] (scara_joint_server) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server/__init__.py -> /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server\n'}
+[6.537209] (scara_joint_server) StdoutLine: {'line': b'copying /home/rosdev/ros2_ws/build/scara_joint_server/build/lib/scara_joint_server/joint_config_server.py -> /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server\n'}
+[6.541484] (scara_joint_server) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server/__init__.py to __init__.cpython-310.pyc\n'}
+[6.543521] (scara_joint_server) StdoutLine: {'line': b'byte-compiling /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server/joint_config_server.py to joint_config_server.cpython-310.pyc\n'}
+[6.556801] (scara_joint_server) StdoutLine: {'line': b'running install_data\n'}
+[6.559129] (scara_joint_server) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index\n'}
+[6.559641] (scara_joint_server) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index\n'}
+[6.560007] (scara_joint_server) StdoutLine: {'line': b'creating /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages\n'}
+[6.583657] (scara_joint_server) StdoutLine: {'line': b'copying resource/scara_joint_server -> /home/rosdev/ros2_ws/install/scara_joint_server/share/ament_index/resource_index/packages\n'}
+[6.623919] (scara_joint_server) StdoutLine: {'line': b'copying package.xml -> /home/rosdev/ros2_ws/install/scara_joint_server/share/scara_joint_server\n'}
+[6.627385] (-) TimerEvent: {}
+[6.638886] (scara_joint_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.649870] (scara_joint_server) StdoutLine: {'line': b'Copying ../../../build/scara_joint_server/scara_joint_server.egg-info to /home/rosdev/ros2_ws/install/scara_joint_server/lib/python3.10/site-packages/scara_joint_server-0.0.0-py3.10.egg-info\n'}
+[6.654507] (scara_joint_server) StdoutLine: {'line': b'running install_scripts\n'}
+[6.727689] (-) TimerEvent: {}
+[6.828474] (-) TimerEvent: {}
+[6.852915] (scara_joint_server) StdoutLine: {'line': b'Installing joint_config_server script to /home/rosdev/ros2_ws/install/scara_joint_server/lib/scara_joint_server\n'}
+[6.864012] (scara_joint_server) StdoutLine: {'line': b"writing list of installed files to '/home/rosdev/ros2_ws/build/scara_joint_server/install.log'\n"}
+[6.928816] (-) TimerEvent: {}
+[6.997519] (scara_joint_server) CommandEnded: {'returncode': 0}
+[7.029297] (-) TimerEvent: {}
+[7.068649] (scara_joint_server) JobEnded: {'identifier': 'scara_joint_server', 'rc': 0}
+[7.076774] (-) EventReactorShutdown: {}

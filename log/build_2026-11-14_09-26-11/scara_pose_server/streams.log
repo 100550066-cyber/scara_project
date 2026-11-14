@@ -1,0 +1,16 @@
+[9.396s] Invoking command in '/home/rosdev/ros2_ws/build/scara_pose_server': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_pose_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_pose_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/scara_pose_server/build --no-deps symlink_data
+[11.458s] running develop
+[12.232s] running egg_info
+[12.233s] writing scara_pose_server.egg-info/PKG-INFO
+[12.234s] writing dependency_links to scara_pose_server.egg-info/dependency_links.txt
+[12.235s] writing entry points to scara_pose_server.egg-info/entry_points.txt
+[12.235s] writing requirements to scara_pose_server.egg-info/requires.txt
+[12.236s] writing top-level names to scara_pose_server.egg-info/top_level.txt
+[12.449s] reading manifest file 'scara_pose_server.egg-info/SOURCES.txt'
+[12.725s] writing manifest file 'scara_pose_server.egg-info/SOURCES.txt'
+[12.753s] running build_ext
+[12.753s] Creating /home/rosdev/ros2_ws/install/scara_pose_server/lib/python3.10/site-packages/scara-pose-server.egg-link (link to .)
+[12.757s] 
+[12.757s] Installed /home/rosdev/ros2_ws/build/scara_pose_server
+[12.757s] running symlink_data
+[13.242s] Invoked command in '/home/rosdev/ros2_ws/build/scara_pose_server' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/scara_pose_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/scara_pose_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/scara_pose_server/build --no-deps symlink_data

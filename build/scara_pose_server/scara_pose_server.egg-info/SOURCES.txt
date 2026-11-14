@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/scara_pose_server
+scara_pose_server/__init__.py
+scara_pose_server.egg-info/PKG-INFO
+scara_pose_server.egg-info/SOURCES.txt
+scara_pose_server.egg-info/dependency_links.txt
+scara_pose_server.egg-info/entry_points.txt
+scara_pose_server.egg-info/requires.txt
+scara_pose_server.egg-info/top_level.txt
+scara_pose_server.egg-info/zip-safe

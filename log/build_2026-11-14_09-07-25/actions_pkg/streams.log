@@ -1,0 +1,25 @@
+[26.382s] Invoking command in '/home/rosdev/ros2_ws/build/actions_pkg': PYTHONPATH=/home/rosdev/ros2_ws/build/actions_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/actions_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/actions_pkg/build --no-deps symlink_data
+[34.745s] running develop
+[37.098s] running egg_info
+[37.098s] creating actions_pkg.egg-info
+[37.099s] writing actions_pkg.egg-info/PKG-INFO
+[37.099s] writing dependency_links to actions_pkg.egg-info/dependency_links.txt
+[37.099s] writing entry points to actions_pkg.egg-info/entry_points.txt
+[37.099s] writing requirements to actions_pkg.egg-info/requires.txt
+[37.101s] writing top-level names to actions_pkg.egg-info/top_level.txt
+[37.108s] writing manifest file 'actions_pkg.egg-info/SOURCES.txt'
+[37.584s] reading manifest file 'actions_pkg.egg-info/SOURCES.txt'
+[37.816s] writing manifest file 'actions_pkg.egg-info/SOURCES.txt'
+[37.832s] running build_ext
+[37.848s] Creating /home/rosdev/ros2_ws/install/actions_pkg/lib/python3.10/site-packages/actions-pkg.egg-link (link to .)
+[37.848s] Installing fibonacci_client script to /home/rosdev/ros2_ws/install/actions_pkg/lib/actions_pkg
+[37.880s] Installing fibonacci_server script to /home/rosdev/ros2_ws/install/actions_pkg/lib/actions_pkg
+[37.880s] 
+[37.881s] Installed /home/rosdev/ros2_ws/build/actions_pkg
+[37.881s] running symlink_data
+[37.881s] creating /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index
+[37.881s] creating /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index/resource_index
+[37.894s] creating /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index/resource_index/packages
+[37.963s] symbolically linking /home/rosdev/ros2_ws/build/actions_pkg/resource/actions_pkg -> /home/rosdev/ros2_ws/install/actions_pkg/share/ament_index/resource_index/packages
+[37.981s] symbolically linking /home/rosdev/ros2_ws/build/actions_pkg/package.xml -> /home/rosdev/ros2_ws/install/actions_pkg/share/actions_pkg
+[44.133s] Invoked command in '/home/rosdev/ros2_ws/build/actions_pkg' returned '0': PYTHONPATH=/home/rosdev/ros2_ws/build/actions_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rosdev/ros2_ws/install/actions_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rosdev/ros2_ws/build/actions_pkg/build --no-deps symlink_data

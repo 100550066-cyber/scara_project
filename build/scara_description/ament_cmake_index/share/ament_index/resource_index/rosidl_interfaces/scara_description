@@ -1,0 +1,8 @@
+srv/GetEndEffectorPose.idl
+srv/GetEndEffectorPose.srv
+srv/GetEndEffectorPose_Request.msg
+srv/GetEndEffectorPose_Response.msg
+srv/SetJointConfig.idl
+srv/SetJointConfig.srv
+srv/SetJointConfig_Request.msg
+srv/SetJointConfig_Response.msg

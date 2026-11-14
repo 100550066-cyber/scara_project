@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/build/scara_description/rosidl_generator_py/scara_description/srv/_set_joint_config.py

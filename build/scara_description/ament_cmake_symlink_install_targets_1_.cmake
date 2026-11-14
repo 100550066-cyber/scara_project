@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rosdev/ros2_ws/build/scara_description/rosidl_generator_py/scara_description/scara_description_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "scara_description__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/scara_description")

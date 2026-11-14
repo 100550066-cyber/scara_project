@@ -1,0 +1,41 @@
+[0.412s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/my_robot_description -- -j12 -l12
+[7.240s] Invoked command in '/home/rosdev/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/my_robot_description -- -j12 -l12
+[7.259s] Invoking command in '/home/rosdev/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/my_robot_description
+[7.365s] -- Install configuration: ""
+[7.366s] -- Execute custom install script
+[7.485s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/config/controllers.yaml
+[7.549s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo.launch.py
+[7.623s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo_nocontrol.launch.py
+[7.631s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_visualization.launch.py
+[8.093s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/gripper.urdf.xacro
+[8.157s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[8.269s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm.urdf
+[8.401s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm.urdf.xacro
+[8.497s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm_control.urdf
+[8.554s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_control.urdf.xacro
+[9.017s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/visualize_robot.rviz
+[9.493s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/gripper.urdf.xacro
+[9.620s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot.urdf.xacro
+[9.698s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm.urdf
+[9.805s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm.urdf.xacro
+[9.924s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_arm_control.urdf
+[10.017s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/robot_control.urdf.xacro
+[10.328s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo.launch.py
+[10.329s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_gazebo_nocontrol.launch.py
+[10.341s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/launch/robot_visualization.launch.py
+[10.410s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/rviz/visualize_robot.rviz
+[10.413s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[10.413s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[10.428s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[10.428s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[10.429s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[10.429s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[10.430s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[10.430s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[10.462s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[10.463s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[10.463s] -- Symlinking: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[10.562s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[10.562s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[10.563s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[10.627s] -- Up-to-date symlink: /home/rosdev/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml

@@ -1,0 +1,30 @@
+[1.962s] Invoking command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/moveit_tests_pkg -- -j12 -l12
+[7.058s] [35m[1mConsolidate compiler generated dependencies of target move_cartesian_program[0m
+[7.059s] [35m[1mConsolidate compiler generated dependencies of target move_target_program[0m
+[7.059s] [35m[1mConsolidate compiler generated dependencies of target move_named_target_example[0m
+[7.060s] [ 33%] Built target move_cartesian_program
+[7.060s] [ 66%] Built target move_named_target_example
+[7.060s] [100%] Built target move_target_program
+[7.140s] Invoked command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ros2_ws/build/moveit_tests_pkg -- -j12 -l12
+[7.159s] Invoking command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/moveit_tests_pkg
+[7.295s] -- Install configuration: ""
+[7.311s] -- Execute custom install script
+[7.311s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_cartesian_program
+[7.312s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_target_program
+[7.330s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/lib/moveit_tests_pkg/move_named_target_example
+[7.352s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_tests_pkg
+[7.450s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_tests_pkg
+[7.459s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/ament_prefix_path.sh
+[7.513s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/ament_prefix_path.dsv
+[7.559s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/path.sh
+[7.600s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/environment/path.dsv
+[7.628s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.bash
+[7.674s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.sh
+[7.729s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.zsh
+[7.796s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/local_setup.dsv
+[7.839s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/package.dsv
+[7.889s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/ament_index/resource_index/packages/moveit_tests_pkg
+[7.955s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/cmake/moveit_tests_pkgConfig.cmake
+[8.009s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/cmake/moveit_tests_pkgConfig-version.cmake
+[8.071s] -- Symlinking: /home/rosdev/ros2_ws/install/moveit_tests_pkg/share/moveit_tests_pkg/package.xml
+[8.145s] Invoked command in '/home/rosdev/ros2_ws/build/moveit_tests_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosdev/ros2_ws/install/scara_pose_server:/home/rosdev/ros2_ws/install/scara_joint_server:/home/rosdev/ros2_ws/install/scara_client:/home/rosdev/ros2_ws/install/topics_pkg:/home/rosdev/ros2_ws/install/tf2_demo:/home/rosdev/ros2_ws/install/services_pkg:/home/rosdev/ros2_ws/install/python_scripts_pkg:/home/rosdev/ros2_ws/install/actions_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ros2_ws/build/moveit_tests_pkg

@@ -1,1 +1,0 @@
-/home/rosdev/ros2_ws/src/franka/cartesian_controllers/cartesian_force_controller/include/cartesian_force_controller/cartesian_force_controller.h

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating scara_pose_server.egg-info
+writing scara_pose_server.egg-info/PKG-INFO
+writing dependency_links to scara_pose_server.egg-info/dependency_links.txt
+writing entry points to scara_pose_server.egg-info/entry_points.txt
+writing requirements to scara_pose_server.egg-info/requires.txt
+writing top-level names to scara_pose_server.egg-info/top_level.txt
+writing manifest file 'scara_pose_server.egg-info/SOURCES.txt'
+reading manifest file 'scara_pose_server.egg-info/SOURCES.txt'
+writing manifest file 'scara_pose_server.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rosdev/ros2_ws/install/scara_pose_server/lib/python3.10/site-packages/scara-pose-server.egg-link (link to .)
+
+Installed /home/rosdev/ros2_ws/build/scara_pose_server
+running symlink_data
+creating /home/rosdev/ros2_ws/install/scara_pose_server/share/ament_index
+creating /home/rosdev/ros2_ws/install/scara_pose_server/share/ament_index/resource_index
+creating /home/rosdev/ros2_ws/install/scara_pose_server/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/scara_pose_server/resource/scara_pose_server -> /home/rosdev/ros2_ws/install/scara_pose_server/share/ament_index/resource_index/packages
+symbolically linking /home/rosdev/ros2_ws/build/scara_pose_server/package.xml -> /home/rosdev/ros2_ws/install/scara_pose_server/share/scara_pose_server

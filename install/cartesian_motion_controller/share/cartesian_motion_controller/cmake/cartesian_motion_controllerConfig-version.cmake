@@ -1,1 +1,0 @@
-/home/rosdev/ros2_ws/build/cartesian_motion_controller/ament_cmake_core/cartesian_motion_controllerConfig-version.cmake

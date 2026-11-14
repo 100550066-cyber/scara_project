@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from scara_description/srv/SetJointConfig.srv
+// generated code does not contain a copyright notice
+
+
+module scara_description {
+  module srv {
+    struct SetJointConfig_Request {
+      double joint_1;
+
+      double joint_2;
+
+      double joint_3;
+    };
+    struct SetJointConfig_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

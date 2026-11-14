@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/build/scara_description/rosidl_generator_rs/scara_description/rust/build.rs

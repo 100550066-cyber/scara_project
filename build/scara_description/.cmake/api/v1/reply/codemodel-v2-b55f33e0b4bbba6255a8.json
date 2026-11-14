@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5831a679b14e9a4e4c30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "scara_description__py",
+					"jsonFile" : "directory-scara_description__py-5ebc666c5354c084725b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rosdev/ros2_ws/build/scara_description/scara_description__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "scara_description__rs",
+					"jsonFile" : "directory-scara_description__rs-175eb75333dbeab2b6fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rosdev/ros2_ws/build/scara_description/scara_description__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "scara_description",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_scara_description_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_scara_description_egg-0c06b6b7e81f2380046b.json",
+					"name" : "ament_cmake_python_build_scara_description_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_scara_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_scara_description-453be5be87f0598974a4.json",
+					"name" : "ament_cmake_python_symlink_scara_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description-f92a8ce0c95136b5cf2b.json",
+					"name" : "scara_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__cpp-9d96dde3bac3e49da06e.json",
+					"name" : "scara_description__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "scara_description__py::@7203e899e030011af408",
+					"jsonFile" : "target-scara_description__py-68099adf3ec9417d9a6f.json",
+					"name" : "scara_description__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_generator_c-aaaba7118a4c69b58423.json",
+					"name" : "scara_description__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_generator_py-b8f5daae3fd4836e1ce2.json",
+					"name" : "scara_description__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_c-006a2924b6235bafa61c.json",
+					"name" : "scara_description__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_c__pyext-57daa3215bf7dd9733a2.json",
+					"name" : "scara_description__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_cpp-86896d2f19a3c4db1a81.json",
+					"name" : "scara_description__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_fastrtps_c-58e096c7b090f7a1d86c.json",
+					"name" : "scara_description__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_fastrtps_c__pyext-804b9de11eb739bbc58a.json",
+					"name" : "scara_description__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_fastrtps_cpp-628966256742977ed935.json",
+					"name" : "scara_description__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_introspection_c-a72999bda6b0af5cb1ec.json",
+					"name" : "scara_description__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_introspection_c__pyext-b73585a6f207a04521c8.json",
+					"name" : "scara_description__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description__rosidl_typesupport_introspection_cpp-cc7912f357194751eaad.json",
+					"name" : "scara_description__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "scara_description__rs::@ae5a19bf79257a868210",
+					"jsonFile" : "target-scara_description__rs-cae0482e70c885b01819.json",
+					"name" : "scara_description__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scara_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scara_description_uninstall-4a61a81ca7a22e1a0744.json",
+					"name" : "scara_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1fe4fc98589896191226.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rosdev/ros2_ws/build/scara_description",
+		"source" : "/home/rosdev/ros2_ws/src/scara_project/scara_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

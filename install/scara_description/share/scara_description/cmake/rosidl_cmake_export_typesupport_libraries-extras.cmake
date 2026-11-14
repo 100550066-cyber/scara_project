@@ -1,0 +1,1 @@
+/home/rosdev/ros2_ws/build/scara_description/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
