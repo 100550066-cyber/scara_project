@@ -1,0 +1,41 @@
+#UML SEQUENCE DIAGRAM
+```mermaid```
+sequenceDiagram
+    autonumber
+    actor User
+    participant Client as Client Node
+    participant JointSrv as Joint Configuration Server
+    participant RSP as robot_state_publisher / RViz
+    participant TF2 as TF2 Buffer / Tree
+    participant PoseSrv as End-Effector Pose Server
+
+    User->>Client: Run from terminal with joint args<br/>(ros2 run pkg client <j1 j2 ...>)
+    
+    Note over Client, JointSrv: Service Call 1: Set Joint Configuration
+    Client->>+JointSrv: Request: SetJointConfig(joint_values)
+    JointSrv->>JointSrv: Validate values against joint limits
+
+    alt Joint values are VALID
+        JointSrv--)RSP: Publish: /joint_states (sensor_msgs/JointState)
+        Note right of RSP: Updates RViz visualization<br/>& computes kinematics
+        RSP--)TF2: Broadcast: /tf (base_frame -> end_effector)
+        JointSrv-->>Client: Response: success = True, message = "OK"
+    else Joint values are OUT OF LIMITS
+        JointSrv-->>-Client: Response: success = False, message = "Limit exceeded..."
+    end
+
+    opt If Joint Configuration Succeeded (success == True)
+        Note over Client, PoseSrv: Service Call 2: Query End-Effector Pose
+        Client->>+PoseSrv: Request: GetEndEffectorPose()
+        PoseSrv->>+TF2: lookup_transform(base_frame, end_effector)
+        
+        alt Transform found in TF2
+            TF2-->>PoseSrv: Return TransformStamped
+            PoseSrv-->>Client: Response: success = True, pose = Pose
+            Client->>User: Print returned end-effector pose
+        else TF2 LookupException / Timeout
+            TF2-->>-PoseSrv: Raise TF2 Exception
+            PoseSrv-->>-Client: Response: success = False, pose = Empty
+            Client->>User: Print error message
+        end
+    end
