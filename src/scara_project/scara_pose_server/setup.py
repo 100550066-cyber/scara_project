@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
-    },
+    'console_scripts': [
+        'pose_server = scara_pose_server.pose_server:main',
+    ],
+},
 )
