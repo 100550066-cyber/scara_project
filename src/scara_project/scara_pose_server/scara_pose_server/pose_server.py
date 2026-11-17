@@ -2,8 +2,8 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.time import Time
-from tf2_ros import Buffer, TransformListener, TransformException
 from scara_description.srv import GetEndEffectorPose
+from tf2_ros import Buffer, TransformException, TransformListener
 
 
 class PoseServer(Node):
